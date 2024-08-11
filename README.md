@@ -50,7 +50,7 @@ To run the application, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/YassineJlassi123/HotelBookingSystem.git 
+   git clone https://github.com/YassineJlassi123/HottelBookingSystem.git
 
 2. **Build and Run the Application:**
    ```bash
@@ -70,7 +70,7 @@ Open your browser and navigate to http://localhost:5137.
    dotnet test
 
 **Production URL:**
-You can test the live application at: http://your-production-url
+You can test the live application at: https://hottelbookingsystem.onrender.com
 
 **Contact:**
 If you have any questions or feedback, feel free to reach out to yassinej696@gmail.com.
