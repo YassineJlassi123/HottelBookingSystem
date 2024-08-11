@@ -1,0 +1,1096 @@
+﻿Title,Date,RoomType,Season,OccupancyRate,BasePrice,Competitor,ID,haveConnectingRooms,availableViews
+,1 janvier 2020,Standard,Off-Season,32,100,Muntaaz Al Bahar,1,TRUE,garden
+,2 janvier 2020,Deluxe,Off-Season,32,150,Nazl Al Jabal,2,FALSE,garden
+,3 janvier 2020,Suite,Off-Season,32,250,Nazl Al Jabal,3,TRUE,garden
+,4 janvier 2020,Standard,Off-Season,14,100,Nazl Al Iqtisad,4,TRUE,garden
+,5 janvier 2020,Deluxe,Off-Season,14,150,Nazl Al Iqtisad,5,TRUE,city
+,6 janvier 2020,Suite,Off-Season,14,250,Fandak Al Fakhama,6,FALSE,city
+,7 janvier 2020,Standard,Off-Season,13,100,Fandak Al Fakhama,7,TRUE,garden
+,8 janvier 2020,Deluxe,Off-Season,13,150,Fandak Al Madina,8,TRUE,mountain
+,9 janvier 2020,Suite,Off-Season,13,250,Fandak Al Madina,9,TRUE,sea
+,10 janvier 2020,Standard,Off-Season,18,100,Fandak Al Madina,10,FALSE,garden
+,11 janvier 2020,Deluxe,Off-Season,18,150,Fandak Al Madina,11,TRUE,mountain
+,12 janvier 2020,Suite,Off-Season,18,250,Nazl Al Jabal,12,TRUE,sea
+,13 janvier 2020,Standard,Off-Season,29,100,Nazl Al Jabal,13,TRUE,garden
+,14 janvier 2020,Deluxe,Off-Season,29,150,Fandak Al Fakhama,14,TRUE,garden
+,15 janvier 2020,Suite,Off-Season,29,250,Nazl Al Iqtisad,15,FALSE,city
+,16 janvier 2020,Standard,Off-Season,29,100,Nazl Al Iqtisad,16,TRUE,sea
+,17 janvier 2020,Deluxe,Off-Season,29,150,Muntaaz Al Bahar,17,FALSE,sea
+,18 janvier 2020,Suite,Off-Season,29,250,Nazl Al Jabal,18,FALSE,mountain
+,19 janvier 2020,Standard,Off-Season,26,100,Fandak Al Madina,19,FALSE,city
+,20 janvier 2020,Deluxe,Off-Season,26,150,Fandak Al Madina,20,TRUE,city
+,21 janvier 2020,Suite,Off-Season,26,250,Muntaaz Al Bahar,21,FALSE,city
+,22 janvier 2020,Standard,Off-Season,3,100,Nazl Al Iqtisad,22,TRUE,city
+,23 janvier 2020,Deluxe,Off-Season,3,150,Fandak Al Madina,23,FALSE,sea
+,24 janvier 2020,Suite,Off-Season,3,250,Nazl Al Iqtisad,24,FALSE,sea
+,25 janvier 2020,Standard,Off-Season,52,100,Muntaaz Al Bahar,25,FALSE,garden
+,26 janvier 2020,Deluxe,Off-Season,52,150,Nazl Al Iqtisad,26,FALSE,garden
+,27 janvier 2020,Suite,Off-Season,52,250,Nazl Al Iqtisad,27,FALSE,city
+,28 janvier 2020,Standard,Off-Season,43,100,Nazl Al Iqtisad,28,FALSE,city
+,29 janvier 2020,Deluxe,Off-Season,43,150,Fandak Al Madina,29,FALSE,city
+,30 janvier 2020,Suite,Off-Season,43,250,Fandak Al Fakhama,30,FALSE,garden
+,31 janvier 2020,Standard,Off-Season,92,100,Nazl Al Jabal,31,TRUE,mountain
+,1 février 2020,Deluxe,Off-Season,92,150,Nazl Al Iqtisad,32,TRUE,mountain
+,2 février 2020,Suite,Off-Season,92,250,Nazl Al Iqtisad,33,FALSE,garden
+,3 février 2020,Standard,Off-Season,27,100,Nazl Al Iqtisad,34,FALSE,garden
+,4 février 2020,Deluxe,Off-Season,27,150,Fandak Al Fakhama,35,FALSE,garden
+,5 février 2020,Suite,Off-Season,27,250,Muntaaz Al Bahar,36,TRUE,garden
+,6 février 2020,Standard,Off-Season,83,100,Fandak Al Madina,37,FALSE,garden
+,7 février 2020,Deluxe,Off-Season,83,150,Fandak Al Fakhama,38,TRUE,garden
+,8 février 2020,Suite,Off-Season,83,250,Nazl Al Iqtisad,39,TRUE,city
+,9 février 2020,Standard,Off-Season,2,100,Fandak Al Fakhama,40,TRUE,city
+,10 février 2020,Deluxe,Off-Season,2,150,Fandak Al Fakhama,41,TRUE,city
+,11 février 2020,Suite,Off-Season,2,250,Fandak Al Fakhama,42,TRUE,city
+,12 février 2020,Standard,Off-Season,48,100,Muntaaz Al Bahar,43,FALSE,garden
+,13 février 2020,Deluxe,Off-Season,48,150,Nazl Al Jabal,44,FALSE,mountain
+,14 février 2020,Suite,Off-Season,48,250,Fandak Al Madina,45,FALSE,sea
+,15 février 2020,Standard,Off-Season,35,100,Muntaaz Al Bahar,46,FALSE,garden
+,16 février 2020,Deluxe,Off-Season,35,150,Muntaaz Al Bahar,47,FALSE,sea
+,17 février 2020,Suite,Off-Season,35,250,Nazl Al Jabal,48,TRUE,mountain
+,18 février 2020,Standard,Off-Season,44,100,Muntaaz Al Bahar,49,FALSE,city
+,19 février 2020,Deluxe,Off-Season,44,150,Fandak Al Fakhama,50,FALSE,mountain
+,20 février 2020,Suite,Off-Season,44,250,Fandak Al Fakhama,51,TRUE,garden
+,21 février 2020,Standard,Off-Season,32,100,Nazl Al Iqtisad,52,FALSE,city
+,22 février 2020,Deluxe,Off-Season,32,150,Muntaaz Al Bahar,53,TRUE,garden
+,23 février 2020,Suite,Off-Season,32,250,Nazl Al Iqtisad,54,FALSE,city
+,24 février 2020,Standard,Off-Season,47,100,Fandak Al Madina,55,TRUE,sea
+,25 février 2020,Deluxe,Off-Season,47,150,Fandak Al Fakhama,56,FALSE,sea
+,26 février 2020,Suite,Off-Season,47,250,Fandak Al Madina,57,FALSE,sea
+,27 février 2020,Standard,Off-Season,61,100,Nazl Al Jabal,58,TRUE,mountain
+,28 février 2020,Deluxe,Off-Season,61,150,Fandak Al Fakhama,59,TRUE,garden
+,29 février 2020,Suite,Off-Season,61,250,Fandak Al Madina,60,TRUE,mountain
+,1 mars 2020,Standard,Off-Season,11,100,Nazl Al Jabal,61,TRUE,sea
+,2 mars 2020,Deluxe,Off-Season,11,150,Fandak Al Madina,62,TRUE,garden
+,3 mars 2020,Suite,Off-Season,11,250,Nazl Al Jabal,63,TRUE,sea
+,4 mars 2020,Standard,Off-Season,86,100,Nazl Al Jabal,64,TRUE,mountain
+,5 mars 2020,Deluxe,Off-Season,86,150,Fandak Al Fakhama,65,TRUE,mountain
+,6 mars 2020,Suite,Off-Season,86,250,Nazl Al Iqtisad,66,FALSE,mountain
+,7 mars 2020,Standard,Off-Season,88,100,Nazl Al Jabal,67,FALSE,sea
+,8 mars 2020,Deluxe,Off-Season,88,150,Nazl Al Jabal,68,TRUE,garden
+,9 mars 2020,Suite,Off-Season,88,250,Fandak Al Fakhama,69,FALSE,garden
+,10 mars 2020,Standard,Off-Season,2,100,Nazl Al Iqtisad,70,FALSE,sea
+,11 mars 2020,Deluxe,Off-Season,2,150,Muntaaz Al Bahar,71,FALSE,garden
+,12 mars 2020,Suite,Off-Season,2,250,Muntaaz Al Bahar,72,FALSE,sea
+,13 mars 2020,Standard,Off-Season,27,100,Nazl Al Iqtisad,73,TRUE,garden
+,14 mars 2020,Deluxe,Off-Season,27,150,Fandak Al Madina,74,FALSE,city
+,15 mars 2020,Suite,Off-Season,27,250,Fandak Al Fakhama,75,TRUE,city
+,16 mars 2020,Standard,Off-Season,5,100,Nazl Al Iqtisad,76,FALSE,mountain
+,17 mars 2020,Deluxe,Off-Season,5,150,Muntaaz Al Bahar,77,FALSE,city
+,18 mars 2020,Suite,Off-Season,5,250,Nazl Al Jabal,78,FALSE,city
+,19 mars 2020,Standard,Off-Season,95,100,Muntaaz Al Bahar,79,TRUE,city
+,20 mars 2020,Deluxe,Off-Season,95,150,Nazl Al Jabal,80,FALSE,sea
+,21 mars 2020,Suite,Off-Season,95,250,Fandak Al Fakhama,81,TRUE,city
+,22 mars 2020,Standard,Off-Season,74,100,Nazl Al Jabal,82,FALSE,city
+,23 mars 2020,Deluxe,Off-Season,74,150,Nazl Al Iqtisad,83,TRUE,mountain
+,24 mars 2020,Suite,Off-Season,74,250,Nazl Al Jabal,84,FALSE,city
+,25 mars 2020,Standard,Off-Season,90,100,Fandak Al Madina,85,TRUE,city
+,26 mars 2020,Deluxe,Off-Season,90,150,Nazl Al Iqtisad,86,TRUE,garden
+,27 mars 2020,Suite,Off-Season,90,250,Fandak Al Fakhama,87,FALSE,mountain
+,28 mars 2020,Standard,Off-Season,17,100,Nazl Al Iqtisad,88,TRUE,mountain
+,29 mars 2020,Deluxe,Off-Season,17,150,Fandak Al Madina,89,FALSE,mountain
+,30 mars 2020,Suite,Off-Season,17,250,Fandak Al Fakhama,90,FALSE,mountain
+,31 mars 2020,Standard,Off-Season,75,100,Muntaaz Al Bahar,91,FALSE,mountain
+,1 avril 2020,Deluxe,Off-Season,75,150,Fandak Al Madina,92,FALSE,mountain
+,2 avril 2020,Suite,Off-Season,75,250,Fandak Al Fakhama,93,FALSE,sea
+,3 avril 2020,Standard,Off-Season,53,100,Nazl Al Jabal,94,FALSE,city
+,4 avril 2020,Deluxe,Off-Season,53,150,Nazl Al Iqtisad,95,FALSE,mountain
+,5 avril 2020,Suite,Off-Season,53,250,Fandak Al Fakhama,96,FALSE,city
+,6 avril 2020,Standard,Off-Season,38,100,Nazl Al Iqtisad,97,FALSE,city
+,7 avril 2020,Deluxe,Off-Season,38,150,Nazl Al Jabal,98,FALSE,sea
+,8 avril 2020,Suite,Off-Season,38,250,Fandak Al Fakhama,99,FALSE,mountain
+,9 avril 2020,Standard,Off-Season,46,100,Muntaaz Al Bahar,100,TRUE,garden
+,10 avril 2020,Deluxe,Off-Season,46,150,Fandak Al Madina,101,TRUE,sea
+,11 avril 2020,Suite,Off-Season,46,250,Fandak Al Fakhama,102,FALSE,garden
+,12 avril 2020,Standard,Off-Season,23,100,Nazl Al Jabal,103,FALSE,city
+,13 avril 2020,Deluxe,Off-Season,23,150,Fandak Al Fakhama,104,FALSE,city
+,14 avril 2020,Suite,Off-Season,23,250,Nazl Al Iqtisad,105,FALSE,sea
+,15 avril 2020,Standard,Off-Season,70,100,Fandak Al Fakhama,106,FALSE,sea
+,16 avril 2020,Deluxe,Off-Season,70,150,Muntaaz Al Bahar,107,FALSE,garden
+,17 avril 2020,Suite,Off-Season,70,250,Fandak Al Fakhama,108,FALSE,mountain
+,18 avril 2020,Standard,Off-Season,24,100,Fandak Al Madina,109,FALSE,garden
+,19 avril 2020,Deluxe,Off-Season,24,150,Fandak Al Fakhama,110,TRUE,sea
+,20 avril 2020,Suite,Off-Season,24,250,Nazl Al Iqtisad,111,FALSE,garden
+,21 avril 2020,Standard,Off-Season,16,100,Fandak Al Fakhama,112,TRUE,sea
+,22 avril 2020,Deluxe,Off-Season,16,150,Muntaaz Al Bahar,113,FALSE,garden
+,23 avril 2020,Suite,Off-Season,16,250,Nazl Al Jabal,114,FALSE,sea
+,24 avril 2020,Standard,Off-Season,74,100,Fandak Al Fakhama,115,TRUE,sea
+,25 avril 2020,Deluxe,Off-Season,74,150,Fandak Al Fakhama,116,FALSE,sea
+,26 avril 2020,Suite,Off-Season,74,250,Fandak Al Madina,117,TRUE,mountain
+,27 avril 2020,Standard,Off-Season,61,100,Muntaaz Al Bahar,118,FALSE,garden
+,28 avril 2020,Deluxe,Off-Season,61,150,Nazl Al Jabal,119,FALSE,garden
+,29 avril 2020,Suite,Off-Season,61,250,Nazl Al Iqtisad,120,TRUE,garden
+,30 avril 2020,Standard,Off-Season,13,100,Fandak Al Fakhama,121,FALSE,sea
+,1 mai 2020,Deluxe,Off-Season,13,150,Nazl Al Jabal,122,TRUE,garden
+,2 mai 2020,Suite,Off-Season,13,250,Nazl Al Iqtisad,123,FALSE,garden
+,3 mai 2020,Standard,Off-Season,43,100,Muntaaz Al Bahar,124,TRUE,sea
+,4 mai 2020,Deluxe,Off-Season,43,150,Muntaaz Al Bahar,125,TRUE,city
+,5 mai 2020,Suite,Off-Season,43,250,Nazl Al Jabal,126,FALSE,sea
+,6 mai 2020,Standard,Off-Season,63,100,Nazl Al Iqtisad,127,FALSE,garden
+,7 mai 2020,Deluxe,Off-Season,63,150,Muntaaz Al Bahar,128,TRUE,sea
+,8 mai 2020,Suite,Off-Season,63,250,Nazl Al Jabal,129,FALSE,city
+,9 mai 2020,Standard,Off-Season,93,100,Muntaaz Al Bahar,130,FALSE,sea
+,10 mai 2020,Deluxe,Off-Season,93,150,Muntaaz Al Bahar,131,FALSE,garden
+,11 mai 2020,Suite,Off-Season,93,250,Muntaaz Al Bahar,132,TRUE,city
+,12 mai 2020,Standard,Off-Season,81,100,Fandak Al Madina,133,TRUE,mountain
+,13 mai 2020,Deluxe,Off-Season,81,150,Nazl Al Iqtisad,134,TRUE,garden
+,14 mai 2020,Suite,Off-Season,81,250,Nazl Al Jabal,135,TRUE,city
+,15 mai 2020,Standard,Off-Season,50,100,Nazl Al Jabal,136,TRUE,city
+,16 mai 2020,Deluxe,Off-Season,50,150,Nazl Al Iqtisad,137,TRUE,mountain
+,17 mai 2020,Suite,Off-Season,50,250,Nazl Al Iqtisad,138,TRUE,sea
+,18 mai 2020,Standard,Off-Season,86,100,Nazl Al Iqtisad,139,TRUE,sea
+,19 mai 2020,Deluxe,Off-Season,86,150,Nazl Al Iqtisad,140,TRUE,garden
+,20 mai 2020,Suite,Off-Season,86,250,Fandak Al Fakhama,141,FALSE,mountain
+,21 mai 2020,Standard,Off-Season,61,100,Nazl Al Jabal,142,TRUE,sea
+,22 mai 2020,Deluxe,Off-Season,61,150,Fandak Al Fakhama,143,FALSE,mountain
+,23 mai 2020,Suite,Off-Season,61,250,Muntaaz Al Bahar,144,FALSE,sea
+,24 mai 2020,Standard,Off-Season,70,100,Muntaaz Al Bahar,145,FALSE,city
+,25 mai 2020,Deluxe,Off-Season,70,150,Nazl Al Jabal,146,TRUE,sea
+,26 mai 2020,Suite,Off-Season,70,250,Muntaaz Al Bahar,147,TRUE,mountain
+,27 mai 2020,Standard,Off-Season,95,100,Nazl Al Iqtisad,148,TRUE,city
+,28 mai 2020,Deluxe,Off-Season,95,150,Fandak Al Fakhama,149,TRUE,city
+,29 mai 2020,Suite,Off-Season,95,250,Nazl Al Iqtisad,150,FALSE,city
+,30 mai 2020,Standard,Off-Season,1,100,Muntaaz Al Bahar,151,TRUE,mountain
+,31 mai 2020,Deluxe,Off-Season,1,150,Fandak Al Fakhama,152,TRUE,garden
+,1 juin 2020,Suite,Off-Season,1,250,Nazl Al Iqtisad,153,TRUE,garden
+,2 juin 2020,Standard,Off-Season,47,100,Nazl Al Jabal,154,TRUE,garden
+,3 juin 2020,Deluxe,Off-Season,47,150,Nazl Al Iqtisad,155,TRUE,mountain
+,4 juin 2020,Suite,Off-Season,47,250,Muntaaz Al Bahar,156,FALSE,city
+,5 juin 2020,Standard,Off-Season,90,100,Fandak Al Fakhama,157,TRUE,garden
+,6 juin 2020,Deluxe,Off-Season,90,150,Nazl Al Jabal,158,FALSE,mountain
+,7 juin 2020,Suite,Off-Season,90,250,Fandak Al Fakhama,159,TRUE,garden
+,8 juin 2020,Standard,Off-Season,100,100,Nazl Al Jabal,160,FALSE,sea
+,9 juin 2020,Deluxe,Off-Season,100,150,Fandak Al Fakhama,161,TRUE,garden
+,10 juin 2020,Suite,Off-Season,100,250,Muntaaz Al Bahar,162,TRUE,garden
+,11 juin 2020,Standard,Off-Season,93,100,Nazl Al Jabal,163,FALSE,city
+,12 juin 2020,Deluxe,Off-Season,93,150,Fandak Al Madina,164,FALSE,mountain
+,13 juin 2020,Suite,Off-Season,93,250,Fandak Al Fakhama,165,FALSE,city
+,14 juin 2020,Standard,Off-Season,47,100,Fandak Al Fakhama,166,TRUE,city
+,15 juin 2020,Deluxe,Off-Season,47,150,Nazl Al Iqtisad,167,FALSE,city
+,16 juin 2020,Suite,Off-Season,47,250,Nazl Al Jabal,168,TRUE,city
+,17 juin 2020,Standard,Off-Season,53,100,Fandak Al Madina,169,TRUE,city
+,18 juin 2020,Deluxe,Off-Season,53,150,Muntaaz Al Bahar,170,FALSE,garden
+,19 juin 2020,Suite,Off-Season,53,250,Nazl Al Iqtisad,171,FALSE,city
+,20 juin 2020,Standard,Off-Season,79,100,Fandak Al Madina,172,TRUE,city
+,21 juin 2020,Deluxe,Off-Season,79,150,Nazl Al Jabal,173,TRUE,mountain
+,22 juin 2020,Suite,Off-Season,79,250,Fandak Al Madina,174,FALSE,sea
+,23 juin 2020,Standard,Off-Season,51,100,Fandak Al Fakhama,175,FALSE,garden
+,24 juin 2020,Deluxe,Off-Season,51,150,Fandak Al Fakhama,176,FALSE,garden
+,25 juin 2020,Suite,Off-Season,51,250,Nazl Al Iqtisad,177,TRUE,garden
+,26 juin 2020,Standard,Off-Season,2,100,Nazl Al Jabal,178,TRUE,city
+,27 juin 2020,Deluxe,Off-Season,2,150,Nazl Al Jabal,179,TRUE,city
+,28 juin 2020,Suite,Off-Season,2,250,Fandak Al Madina,180,TRUE,city
+,29 juin 2020,Standard,Off-Season,52,100,Nazl Al Iqtisad,181,TRUE,mountain
+,30 juin 2020,Deluxe,Off-Season,52,150,Nazl Al Jabal,182,TRUE,sea
+,1 juillet 2020,Suite,Off-Season,52,250,Fandak Al Fakhama,183,FALSE,city
+,2 juillet 2020,Standard,Off-Season,49,100,Fandak Al Madina,184,TRUE,sea
+,3 juillet 2020,Deluxe,Off-Season,49,150,Muntaaz Al Bahar,185,TRUE,mountain
+,4 juillet 2020,Suite,Off-Season,49,250,Fandak Al Fakhama,186,TRUE,garden
+,5 juillet 2020,Standard,Off-Season,64,100,Nazl Al Iqtisad,187,FALSE,city
+,6 juillet 2020,Deluxe,Off-Season,64,150,Nazl Al Jabal,188,TRUE,sea
+,7 juillet 2020,Suite,Off-Season,64,250,Fandak Al Fakhama,189,TRUE,sea
+,8 juillet 2020,Standard,Off-Season,53,100,Muntaaz Al Bahar,190,FALSE,city
+,9 juillet 2020,Deluxe,Off-Season,53,150,Muntaaz Al Bahar,191,TRUE,garden
+,10 juillet 2020,Suite,Off-Season,53,250,Nazl Al Iqtisad,192,TRUE,garden
+,11 juillet 2020,Standard,Off-Season,56,100,Fandak Al Fakhama,193,TRUE,garden
+,12 juillet 2020,Deluxe,Off-Season,56,150,Fandak Al Madina,194,TRUE,mountain
+,13 juillet 2020,Suite,Off-Season,56,250,Fandak Al Fakhama,195,TRUE,sea
+,14 juillet 2020,Standard,Off-Season,89,100,Muntaaz Al Bahar,196,FALSE,sea
+,15 juillet 2020,Deluxe,Off-Season,89,150,Nazl Al Iqtisad,197,FALSE,sea
+,16 juillet 2020,Suite,Off-Season,89,250,Nazl Al Iqtisad,198,FALSE,mountain
+,17 juillet 2020,Standard,Off-Season,89,100,Fandak Al Madina,199,TRUE,sea
+,18 juillet 2020,Deluxe,Off-Season,89,150,Nazl Al Iqtisad,200,TRUE,mountain
+,19 juillet 2020,Suite,Off-Season,89,250,Nazl Al Iqtisad,201,TRUE,garden
+,20 juillet 2020,Standard,Off-Season,67,100,Nazl Al Iqtisad,202,FALSE,city
+,21 juillet 2020,Deluxe,Off-Season,67,150,Nazl Al Iqtisad,203,TRUE,sea
+,22 juillet 2020,Suite,Off-Season,67,250,Nazl Al Iqtisad,204,TRUE,sea
+,23 juillet 2020,Standard,Off-Season,51,100,Muntaaz Al Bahar,205,FALSE,garden
+,24 juillet 2020,Deluxe,Off-Season,51,150,Fandak Al Fakhama,206,TRUE,city
+,25 juillet 2020,Suite,Off-Season,51,250,Nazl Al Jabal,207,FALSE,mountain
+,26 juillet 2020,Standard,Off-Season,1,100,Nazl Al Iqtisad,208,FALSE,city
+,27 juillet 2020,Deluxe,Off-Season,1,150,Nazl Al Jabal,209,FALSE,garden
+,28 juillet 2020,Suite,Off-Season,1,250,Nazl Al Jabal,210,TRUE,garden
+,29 juillet 2020,Standard,Off-Season,20,100,Muntaaz Al Bahar,211,TRUE,city
+,30 juillet 2020,Deluxe,Off-Season,20,150,Nazl Al Iqtisad,212,TRUE,mountain
+,31 juillet 2020,Suite,Off-Season,20,250,Nazl Al Jabal,213,TRUE,mountain
+,1 août 2020,Standard,Off-Season,26,100,Nazl Al Iqtisad,214,TRUE,sea
+,2 août 2020,Deluxe,Off-Season,26,150,Fandak Al Madina,215,TRUE,mountain
+,3 août 2020,Suite,Off-Season,26,250,Fandak Al Madina,216,TRUE,city
+,4 août 2020,Standard,Off-Season,89,100,Fandak Al Madina,217,FALSE,garden
+,5 août 2020,Deluxe,Off-Season,89,150,Nazl Al Jabal,218,TRUE,sea
+,6 août 2020,Suite,Off-Season,89,250,Fandak Al Madina,219,FALSE,sea
+,7 août 2020,Standard,Off-Season,47,100,Muntaaz Al Bahar,220,TRUE,garden
+,8 août 2020,Deluxe,Off-Season,47,150,Muntaaz Al Bahar,221,TRUE,mountain
+,9 août 2020,Suite,Off-Season,47,250,Nazl Al Jabal,222,TRUE,garden
+,10 août 2020,Standard,Off-Season,61,100,Nazl Al Iqtisad,223,FALSE,mountain
+,11 août 2020,Deluxe,Off-Season,61,150,Fandak Al Fakhama,224,FALSE,garden
+,12 août 2020,Suite,Off-Season,61,250,Nazl Al Iqtisad,225,FALSE,city
+,13 août 2020,Standard,Off-Season,75,100,Nazl Al Iqtisad,226,FALSE,mountain
+,14 août 2020,Deluxe,Off-Season,75,150,Nazl Al Iqtisad,227,TRUE,city
+,15 août 2020,Suite,Off-Season,75,250,Nazl Al Iqtisad,228,FALSE,sea
+,16 août 2020,Standard,Off-Season,98,100,Fandak Al Fakhama,229,TRUE,garden
+,17 août 2020,Deluxe,Off-Season,98,150,Fandak Al Madina,230,TRUE,sea
+,18 août 2020,Suite,Off-Season,98,250,Nazl Al Iqtisad,231,FALSE,sea
+,19 août 2020,Standard,Off-Season,60,100,Muntaaz Al Bahar,232,FALSE,sea
+,20 août 2020,Deluxe,Off-Season,60,150,Nazl Al Jabal,233,FALSE,sea
+,21 août 2020,Suite,Off-Season,60,250,Nazl Al Jabal,234,FALSE,garden
+,22 août 2020,Standard,Off-Season,37,100,Muntaaz Al Bahar,235,FALSE,sea
+,23 août 2020,Deluxe,Off-Season,37,150,Nazl Al Iqtisad,236,FALSE,garden
+,24 août 2020,Suite,Off-Season,37,250,Fandak Al Fakhama,237,FALSE,garden
+,25 août 2020,Standard,Off-Season,61,100,Fandak Al Madina,238,FALSE,city
+,26 août 2020,Deluxe,Off-Season,61,150,Nazl Al Jabal,239,TRUE,mountain
+,27 août 2020,Suite,Off-Season,61,250,Fandak Al Madina,240,FALSE,mountain
+,28 août 2020,Standard,Off-Season,52,100,Fandak Al Fakhama,241,FALSE,garden
+,29 août 2020,Deluxe,Off-Season,52,150,Nazl Al Jabal,242,TRUE,city
+,30 août 2020,Suite,Off-Season,52,250,Fandak Al Madina,243,FALSE,garden
+,31 août 2020,Standard,Off-Season,31,100,Fandak Al Fakhama,244,TRUE,garden
+,1 septembre 2020,Deluxe,Off-Season,31,150,Fandak Al Madina,245,TRUE,garden
+,2 septembre 2020,Suite,Off-Season,31,250,Nazl Al Iqtisad,246,FALSE,city
+,3 septembre 2020,Standard,Off-Season,46,100,Fandak Al Fakhama,247,TRUE,mountain
+,4 septembre 2020,Deluxe,Off-Season,46,150,Fandak Al Madina,248,TRUE,city
+,5 septembre 2020,Suite,Off-Season,46,250,Nazl Al Iqtisad,249,TRUE,sea
+,6 septembre 2020,Standard,Off-Season,95,100,Nazl Al Iqtisad,250,TRUE,city
+,7 septembre 2020,Deluxe,Off-Season,95,150,Fandak Al Fakhama,251,FALSE,city
+,8 septembre 2020,Suite,Off-Season,95,250,Muntaaz Al Bahar,252,TRUE,city
+,9 septembre 2020,Standard,Off-Season,16,100,Nazl Al Jabal,253,FALSE,city
+,10 septembre 2020,Deluxe,Off-Season,16,150,Fandak Al Fakhama,254,TRUE,mountain
+,11 septembre 2020,Suite,Off-Season,16,250,Nazl Al Iqtisad,255,TRUE,sea
+,12 septembre 2020,Standard,Off-Season,2,100,Nazl Al Iqtisad,256,TRUE,mountain
+,13 septembre 2020,Deluxe,Off-Season,2,150,Fandak Al Fakhama,257,TRUE,mountain
+,14 septembre 2020,Suite,Off-Season,2,250,Muntaaz Al Bahar,258,FALSE,city
+,15 septembre 2020,Standard,Off-Season,23,100,Nazl Al Jabal,259,FALSE,garden
+,16 septembre 2020,Deluxe,Off-Season,23,150,Fandak Al Madina,260,TRUE,garden
+,17 septembre 2020,Suite,Off-Season,23,250,Fandak Al Fakhama,261,TRUE,mountain
+,18 septembre 2020,Standard,Off-Season,63,100,Nazl Al Jabal,262,FALSE,mountain
+,19 septembre 2020,Deluxe,Off-Season,63,150,Nazl Al Jabal,263,TRUE,city
+,20 septembre 2020,Suite,Off-Season,63,250,Nazl Al Iqtisad,264,TRUE,mountain
+,21 septembre 2020,Standard,Off-Season,29,100,Fandak Al Madina,265,TRUE,city
+,22 septembre 2020,Deluxe,Off-Season,29,150,Fandak Al Fakhama,266,FALSE,garden
+,23 septembre 2020,Suite,Off-Season,29,250,Nazl Al Iqtisad,267,FALSE,garden
+,24 septembre 2020,Standard,Off-Season,59,100,Nazl Al Iqtisad,268,FALSE,sea
+,25 septembre 2020,Deluxe,Off-Season,59,150,Muntaaz Al Bahar,269,TRUE,garden
+,26 septembre 2020,Suite,Off-Season,59,250,Nazl Al Jabal,270,TRUE,mountain
+,27 septembre 2020,Standard,Peak Season,52,100,Fandak Al Fakhama,271,FALSE,garden
+,28 septembre 2020,Deluxe,Peak Season,52,150,Fandak Al Fakhama,272,FALSE,city
+,29 septembre 2020,Suite,Peak Season,52,250,Fandak Al Fakhama,273,FALSE,garden
+,30 septembre 2020,Standard,Peak Season,47,100,Nazl Al Iqtisad,274,FALSE,sea
+,1 octobre 2020,Deluxe,Peak Season,47,150,Muntaaz Al Bahar,275,TRUE,garden
+,2 octobre 2020,Suite,Peak Season,47,250,Fandak Al Madina,276,FALSE,city
+,3 octobre 2020,Standard,Peak Season,52,100,Nazl Al Iqtisad,277,TRUE,city
+,4 octobre 2020,Deluxe,Peak Season,52,150,Fandak Al Madina,278,FALSE,mountain
+,5 octobre 2020,Suite,Peak Season,52,250,Muntaaz Al Bahar,279,TRUE,garden
+,6 octobre 2020,Standard,Peak Season,51,100,Nazl Al Jabal,280,FALSE,city
+,7 octobre 2020,Deluxe,Peak Season,51,150,Fandak Al Fakhama,281,FALSE,sea
+,8 octobre 2020,Suite,Peak Season,51,250,Fandak Al Madina,282,FALSE,mountain
+,9 octobre 2020,Standard,Peak Season,34,100,Nazl Al Iqtisad,283,FALSE,sea
+,10 octobre 2020,Deluxe,Peak Season,34,150,Fandak Al Madina,284,TRUE,garden
+,11 octobre 2020,Suite,Peak Season,34,250,Nazl Al Jabal,285,FALSE,garden
+,12 octobre 2020,Standard,Peak Season,63,100,Fandak Al Fakhama,286,TRUE,garden
+,13 octobre 2020,Deluxe,Peak Season,63,150,Fandak Al Madina,287,TRUE,mountain
+,14 octobre 2020,Suite,Peak Season,63,250,Nazl Al Jabal,288,TRUE,city
+,15 octobre 2020,Standard,Peak Season,27,100,Nazl Al Iqtisad,289,TRUE,mountain
+,16 octobre 2020,Deluxe,Peak Season,27,150,Muntaaz Al Bahar,290,FALSE,sea
+,17 octobre 2020,Suite,Peak Season,27,250,Nazl Al Iqtisad,291,TRUE,mountain
+,18 octobre 2020,Standard,Peak Season,83,100,Fandak Al Fakhama,292,TRUE,sea
+,19 octobre 2020,Deluxe,Peak Season,83,150,Nazl Al Iqtisad,293,TRUE,mountain
+,20 octobre 2020,Suite,Peak Season,83,250,Nazl Al Iqtisad,294,FALSE,city
+,21 octobre 2020,Standard,Peak Season,100,100,Nazl Al Iqtisad,295,FALSE,sea
+,22 octobre 2020,Deluxe,Peak Season,100,150,Nazl Al Iqtisad,296,FALSE,garden
+,23 octobre 2020,Suite,Peak Season,100,250,Fandak Al Fakhama,297,FALSE,garden
+,24 octobre 2020,Standard,Peak Season,34,100,Nazl Al Jabal,298,TRUE,mountain
+,25 octobre 2020,Deluxe,Peak Season,34,150,Fandak Al Madina,299,TRUE,garden
+,26 octobre 2020,Suite,Peak Season,34,250,Muntaaz Al Bahar,300,FALSE,sea
+,27 octobre 2020,Standard,Peak Season,68,100,Fandak Al Madina,301,TRUE,garden
+,28 octobre 2020,Deluxe,Peak Season,68,150,Fandak Al Madina,302,TRUE,city
+,29 octobre 2020,Suite,Peak Season,68,250,Muntaaz Al Bahar,303,TRUE,city
+,30 octobre 2020,Standard,Peak Season,72,100,Fandak Al Fakhama,304,FALSE,mountain
+,31 octobre 2020,Deluxe,Peak Season,72,150,Muntaaz Al Bahar,305,FALSE,sea
+,1 novembre 2020,Suite,Peak Season,72,250,Fandak Al Fakhama,306,TRUE,city
+,2 novembre 2020,Standard,Peak Season,43,100,Fandak Al Madina,307,FALSE,city
+,3 novembre 2020,Deluxe,Peak Season,43,150,Fandak Al Fakhama,308,FALSE,sea
+,4 novembre 2020,Suite,Peak Season,43,250,Nazl Al Jabal,309,FALSE,garden
+,5 novembre 2020,Standard,Peak Season,26,100,Muntaaz Al Bahar,310,FALSE,garden
+,6 novembre 2020,Deluxe,Peak Season,26,150,Nazl Al Jabal,311,FALSE,mountain
+,7 novembre 2020,Suite,Peak Season,26,250,Fandak Al Madina,312,TRUE,garden
+,8 novembre 2020,Standard,Peak Season,93,100,Muntaaz Al Bahar,313,FALSE,sea
+,9 novembre 2020,Deluxe,Peak Season,93,150,Fandak Al Madina,314,TRUE,city
+,10 novembre 2020,Suite,Peak Season,93,250,Nazl Al Jabal,315,TRUE,garden
+,11 novembre 2020,Standard,Peak Season,95,100,Fandak Al Madina,316,FALSE,mountain
+,12 novembre 2020,Deluxe,Peak Season,95,150,Muntaaz Al Bahar,317,TRUE,garden
+,13 novembre 2020,Suite,Peak Season,95,250,Muntaaz Al Bahar,318,TRUE,sea
+,14 novembre 2020,Standard,Peak Season,90,100,Fandak Al Madina,319,TRUE,mountain
+,15 novembre 2020,Deluxe,Peak Season,90,150,Muntaaz Al Bahar,320,FALSE,garden
+,16 novembre 2020,Suite,Peak Season,90,250,Muntaaz Al Bahar,321,FALSE,mountain
+,17 novembre 2020,Standard,Peak Season,71,100,Fandak Al Madina,322,TRUE,sea
+,18 novembre 2020,Deluxe,Peak Season,71,150,Nazl Al Jabal,323,FALSE,city
+,19 novembre 2020,Suite,Peak Season,71,250,Muntaaz Al Bahar,324,FALSE,sea
+,20 novembre 2020,Standard,Peak Season,72,100,Muntaaz Al Bahar,325,FALSE,sea
+,21 novembre 2020,Deluxe,Peak Season,72,150,Muntaaz Al Bahar,326,FALSE,sea
+,22 novembre 2020,Suite,Peak Season,72,250,Muntaaz Al Bahar,327,TRUE,sea
+,23 novembre 2020,Standard,Peak Season,52,100,Fandak Al Madina,328,TRUE,city
+,24 novembre 2020,Deluxe,Peak Season,52,150,Nazl Al Jabal,329,FALSE,city
+,25 novembre 2020,Suite,Peak Season,52,250,Nazl Al Jabal,330,FALSE,mountain
+,26 novembre 2020,Standard,Peak Season,81,100,Fandak Al Fakhama,331,TRUE,garden
+,27 novembre 2020,Deluxe,Peak Season,81,150,Muntaaz Al Bahar,332,TRUE,city
+,28 novembre 2020,Suite,Peak Season,81,250,Muntaaz Al Bahar,333,FALSE,city
+,29 novembre 2020,Standard,Peak Season,0,100,Fandak Al Fakhama,334,TRUE,garden
+,30 novembre 2020,Deluxe,Peak Season,0,150,Nazl Al Jabal,335,FALSE,city
+,1 décembre 2020,Suite,Peak Season,0,250,Nazl Al Iqtisad,336,FALSE,sea
+,2 décembre 2020,Standard,Peak Season,43,100,Nazl Al Iqtisad,337,TRUE,sea
+,3 décembre 2020,Deluxe,Peak Season,43,150,Nazl Al Jabal,338,TRUE,garden
+,4 décembre 2020,Suite,Peak Season,43,250,Muntaaz Al Bahar,339,FALSE,mountain
+,5 décembre 2020,Standard,Peak Season,50,100,Nazl Al Iqtisad,340,FALSE,mountain
+,6 décembre 2020,Deluxe,Peak Season,50,150,Fandak Al Madina,341,TRUE,garden
+,7 décembre 2020,Suite,Peak Season,50,250,Fandak Al Madina,342,FALSE,garden
+,8 décembre 2020,Standard,Peak Season,11,100,Fandak Al Fakhama,343,TRUE,sea
+,9 décembre 2020,Deluxe,Peak Season,11,150,Nazl Al Jabal,344,FALSE,mountain
+,10 décembre 2020,Suite,Peak Season,11,250,Nazl Al Jabal,345,TRUE,city
+,11 décembre 2020,Standard,Peak Season,61,100,Nazl Al Iqtisad,346,TRUE,sea
+,12 décembre 2020,Deluxe,Peak Season,61,150,Muntaaz Al Bahar,347,TRUE,garden
+,13 décembre 2020,Suite,Peak Season,61,250,Nazl Al Jabal,348,FALSE,mountain
+,14 décembre 2020,Standard,Peak Season,58,100,Nazl Al Iqtisad,349,FALSE,city
+,15 décembre 2020,Deluxe,Peak Season,58,150,Nazl Al Iqtisad,350,TRUE,city
+,16 décembre 2020,Suite,Peak Season,58,250,Nazl Al Jabal,351,FALSE,sea
+,17 décembre 2020,Standard,Peak Season,88,100,Nazl Al Iqtisad,352,TRUE,mountain
+,18 décembre 2020,Deluxe,Peak Season,88,150,Fandak Al Fakhama,353,TRUE,mountain
+,19 décembre 2020,Suite,Peak Season,88,250,Fandak Al Fakhama,354,FALSE,garden
+,20 décembre 2020,Standard,Peak Season,53,100,Nazl Al Jabal,355,FALSE,mountain
+,21 décembre 2020,Deluxe,Peak Season,53,150,Muntaaz Al Bahar,356,TRUE,mountain
+,22 décembre 2020,Suite,Peak Season,53,250,Fandak Al Fakhama,357,FALSE,sea
+,23 décembre 2020,Standard,Peak Season,18,100,Fandak Al Fakhama,358,FALSE,mountain
+,24 décembre 2020,Deluxe,Peak Season,18,150,Nazl Al Jabal,359,TRUE,city
+,25 décembre 2020,Suite,Peak Season,18,250,Fandak Al Madina,360,TRUE,sea
+,26 décembre 2020,Standard,Peak Season,61,100,Nazl Al Iqtisad,361,FALSE,sea
+,27 décembre 2020,Deluxe,Peak Season,61,150,Fandak Al Fakhama,362,TRUE,garden
+,28 décembre 2020,Suite,Peak Season,61,250,Fandak Al Madina,363,TRUE,mountain
+,29 décembre 2020,Standard,Peak Season,30,100,Muntaaz Al Bahar,364,FALSE,garden
+,30 décembre 2020,Deluxe,Peak Season,30,150,Fandak Al Madina,365,TRUE,city
+,31 décembre 2020,Suite,Peak Season,30,250,Nazl Al Jabal,366,TRUE,sea
+,1 janvier 2021,Standard,Peak Season,72,100,Muntaaz Al Bahar,367,FALSE,sea
+,2 janvier 2021,Deluxe,Peak Season,72,150,Muntaaz Al Bahar,368,FALSE,sea
+,3 janvier 2021,Suite,Peak Season,72,250,Fandak Al Madina,369,TRUE,city
+,4 janvier 2021,Standard,Peak Season,54,100,Nazl Al Jabal,370,TRUE,city
+,5 janvier 2021,Deluxe,Peak Season,54,150,Fandak Al Fakhama,371,FALSE,garden
+,6 janvier 2021,Suite,Peak Season,54,250,Fandak Al Madina,372,FALSE,garden
+,7 janvier 2021,Standard,Peak Season,87,100,Fandak Al Fakhama,373,FALSE,garden
+,8 janvier 2021,Deluxe,Peak Season,87,150,Fandak Al Madina,374,FALSE,mountain
+,9 janvier 2021,Suite,Peak Season,87,250,Fandak Al Fakhama,375,TRUE,sea
+,10 janvier 2021,Standard,Peak Season,0,100,Fandak Al Madina,376,FALSE,sea
+,11 janvier 2021,Deluxe,Peak Season,0,150,Muntaaz Al Bahar,377,FALSE,garden
+,12 janvier 2021,Suite,Peak Season,0,250,Nazl Al Iqtisad,378,TRUE,sea
+,13 janvier 2021,Standard,Peak Season,18,100,Muntaaz Al Bahar,379,FALSE,garden
+,14 janvier 2021,Deluxe,Peak Season,18,150,Fandak Al Fakhama,380,TRUE,mountain
+,15 janvier 2021,Suite,Peak Season,18,250,Nazl Al Jabal,381,FALSE,mountain
+,16 janvier 2021,Standard,Peak Season,28,100,Muntaaz Al Bahar,382,FALSE,city
+,17 janvier 2021,Deluxe,Peak Season,28,150,Nazl Al Iqtisad,383,FALSE,mountain
+,18 janvier 2021,Suite,Peak Season,28,250,Fandak Al Fakhama,384,TRUE,garden
+,19 janvier 2021,Standard,Peak Season,76,100,Muntaaz Al Bahar,385,TRUE,mountain
+,20 janvier 2021,Deluxe,Peak Season,76,150,Fandak Al Madina,386,FALSE,city
+,21 janvier 2021,Suite,Peak Season,76,250,Nazl Al Jabal,387,TRUE,sea
+,22 janvier 2021,Standard,Peak Season,69,100,Fandak Al Fakhama,388,TRUE,garden
+,23 janvier 2021,Deluxe,Peak Season,69,150,Muntaaz Al Bahar,389,TRUE,sea
+,24 janvier 2021,Suite,Peak Season,69,250,Fandak Al Fakhama,390,TRUE,city
+,25 janvier 2021,Standard,Peak Season,2,100,Fandak Al Madina,391,TRUE,city
+,26 janvier 2021,Deluxe,Peak Season,2,150,Nazl Al Iqtisad,392,TRUE,city
+,27 janvier 2021,Suite,Peak Season,2,250,Muntaaz Al Bahar,393,FALSE,sea
+,28 janvier 2021,Standard,Peak Season,2,100,Fandak Al Fakhama,394,FALSE,sea
+,29 janvier 2021,Deluxe,Peak Season,2,150,Fandak Al Fakhama,395,TRUE,sea
+,30 janvier 2021,Suite,Peak Season,2,250,Fandak Al Fakhama,396,FALSE,sea
+,31 janvier 2021,Standard,Peak Season,35,100,Nazl Al Iqtisad,397,FALSE,city
+,1 février 2021,Deluxe,Peak Season,35,150,Fandak Al Fakhama,398,FALSE,city
+,2 février 2021,Suite,Peak Season,35,250,Nazl Al Jabal,399,FALSE,garden
+,3 février 2021,Standard,Peak Season,60,100,Nazl Al Jabal,400,TRUE,garden
+,4 février 2021,Deluxe,Peak Season,60,150,Fandak Al Fakhama,401,FALSE,sea
+,5 février 2021,Suite,Peak Season,60,250,Nazl Al Jabal,402,FALSE,mountain
+,6 février 2021,Standard,Peak Season,88,100,Muntaaz Al Bahar,403,TRUE,mountain
+,7 février 2021,Deluxe,Peak Season,88,150,Nazl Al Jabal,404,TRUE,city
+,8 février 2021,Suite,Peak Season,88,250,Fandak Al Fakhama,405,FALSE,city
+,9 février 2021,Standard,Peak Season,40,100,Fandak Al Madina,406,FALSE,city
+,10 février 2021,Deluxe,Peak Season,40,150,Muntaaz Al Bahar,407,FALSE,garden
+,11 février 2021,Suite,Peak Season,40,250,Nazl Al Iqtisad,408,FALSE,garden
+,12 février 2021,Standard,Peak Season,74,100,Fandak Al Fakhama,409,FALSE,city
+,13 février 2021,Deluxe,Peak Season,74,150,Nazl Al Iqtisad,410,FALSE,city
+,14 février 2021,Suite,Peak Season,74,250,Fandak Al Madina,411,TRUE,city
+,15 février 2021,Standard,Peak Season,22,100,Nazl Al Iqtisad,412,FALSE,mountain
+,16 février 2021,Deluxe,Peak Season,22,150,Fandak Al Fakhama,413,FALSE,garden
+,17 février 2021,Suite,Peak Season,22,250,Fandak Al Fakhama,414,TRUE,mountain
+,18 février 2021,Standard,Peak Season,91,100,Fandak Al Madina,415,TRUE,mountain
+,19 février 2021,Deluxe,Peak Season,91,150,Fandak Al Fakhama,416,TRUE,city
+,20 février 2021,Suite,Peak Season,91,250,Fandak Al Madina,417,TRUE,city
+,21 février 2021,Standard,Peak Season,46,100,Fandak Al Madina,418,FALSE,sea
+,22 février 2021,Deluxe,Peak Season,46,150,Fandak Al Fakhama,419,FALSE,sea
+,23 février 2021,Suite,Peak Season,46,250,Nazl Al Jabal,420,FALSE,mountain
+,24 février 2021,Standard,Peak Season,26,100,Fandak Al Madina,421,FALSE,garden
+,25 février 2021,Deluxe,Peak Season,26,150,Fandak Al Fakhama,422,FALSE,city
+,26 février 2021,Suite,Peak Season,26,250,Nazl Al Jabal,423,FALSE,city
+,27 février 2021,Standard,Peak Season,38,100,Fandak Al Madina,424,TRUE,mountain
+,28 février 2021,Deluxe,Peak Season,38,150,Nazl Al Jabal,425,FALSE,sea
+,1 mars 2021,Suite,Peak Season,38,250,Muntaaz Al Bahar,426,TRUE,garden
+,2 mars 2021,Standard,Peak Season,1,100,Muntaaz Al Bahar,427,TRUE,sea
+,3 mars 2021,Deluxe,Peak Season,1,150,Nazl Al Jabal,428,FALSE,sea
+,4 mars 2021,Suite,Peak Season,1,250,Fandak Al Madina,429,TRUE,sea
+,5 mars 2021,Standard,Peak Season,79,100,Fandak Al Fakhama,430,FALSE,sea
+,6 mars 2021,Deluxe,Peak Season,79,150,Nazl Al Iqtisad,431,TRUE,city
+,7 mars 2021,Suite,Peak Season,79,250,Fandak Al Fakhama,432,FALSE,city
+,8 mars 2021,Standard,Peak Season,28,100,Nazl Al Iqtisad,433,TRUE,sea
+,9 mars 2021,Deluxe,Peak Season,28,150,Nazl Al Iqtisad,434,FALSE,garden
+,10 mars 2021,Suite,Peak Season,28,250,Fandak Al Madina,435,FALSE,mountain
+,11 mars 2021,Standard,Peak Season,12,100,Nazl Al Jabal,436,FALSE,garden
+,12 mars 2021,Deluxe,Peak Season,12,150,Fandak Al Fakhama,437,FALSE,garden
+,13 mars 2021,Suite,Peak Season,12,250,Nazl Al Jabal,438,FALSE,garden
+,14 mars 2021,Standard,Peak Season,89,100,Muntaaz Al Bahar,439,TRUE,sea
+,15 mars 2021,Deluxe,Peak Season,89,150,Fandak Al Madina,440,TRUE,city
+,16 mars 2021,Suite,Peak Season,89,250,Fandak Al Madina,441,TRUE,garden
+,17 mars 2021,Standard,Peak Season,37,100,Muntaaz Al Bahar,442,FALSE,sea
+,18 mars 2021,Deluxe,Peak Season,37,150,Fandak Al Fakhama,443,TRUE,garden
+,19 mars 2021,Suite,Peak Season,37,250,Muntaaz Al Bahar,444,FALSE,garden
+,20 mars 2021,Standard,Peak Season,34,100,Fandak Al Fakhama,445,FALSE,sea
+,21 mars 2021,Deluxe,Peak Season,34,150,Nazl Al Iqtisad,446,TRUE,city
+,22 mars 2021,Suite,Peak Season,34,250,Fandak Al Madina,447,TRUE,city
+,23 mars 2021,Standard,Peak Season,44,100,Fandak Al Fakhama,448,FALSE,mountain
+,24 mars 2021,Deluxe,Peak Season,44,150,Nazl Al Jabal,449,TRUE,sea
+,25 mars 2021,Suite,Peak Season,44,250,Nazl Al Jabal,450,FALSE,mountain
+,26 mars 2021,Standard,Peak Season,71,100,Fandak Al Madina,451,FALSE,mountain
+,27 mars 2021,Deluxe,Peak Season,71,150,Muntaaz Al Bahar,452,FALSE,mountain
+,28 mars 2021,Suite,Peak Season,71,250,Muntaaz Al Bahar,453,FALSE,city
+,29 mars 2021,Standard,Peak Season,77,100,Fandak Al Fakhama,454,FALSE,sea
+,30 mars 2021,Deluxe,Peak Season,77,150,Muntaaz Al Bahar,455,TRUE,mountain
+,31 mars 2021,Suite,Peak Season,77,250,Fandak Al Madina,456,TRUE,sea
+,1 avril 2021,Standard,Peak Season,20,100,Fandak Al Fakhama,457,FALSE,sea
+,2 avril 2021,Deluxe,Peak Season,20,150,Nazl Al Iqtisad,458,FALSE,city
+,3 avril 2021,Suite,Peak Season,20,250,Muntaaz Al Bahar,459,TRUE,mountain
+,4 avril 2021,Standard,Peak Season,93,100,Muntaaz Al Bahar,460,TRUE,mountain
+,5 avril 2021,Deluxe,Peak Season,93,150,Fandak Al Fakhama,461,FALSE,sea
+,6 avril 2021,Suite,Peak Season,93,250,Nazl Al Jabal,462,TRUE,garden
+,7 avril 2021,Standard,Peak Season,28,100,Muntaaz Al Bahar,463,FALSE,city
+,8 avril 2021,Deluxe,Peak Season,28,150,Fandak Al Madina,464,TRUE,city
+,9 avril 2021,Suite,Peak Season,28,250,Muntaaz Al Bahar,465,FALSE,city
+,10 avril 2021,Standard,Peak Season,46,100,Nazl Al Iqtisad,466,TRUE,city
+,11 avril 2021,Deluxe,Peak Season,46,150,Muntaaz Al Bahar,467,FALSE,mountain
+,12 avril 2021,Suite,Peak Season,46,250,Nazl Al Jabal,468,TRUE,mountain
+,13 avril 2021,Standard,Peak Season,18,100,Muntaaz Al Bahar,469,TRUE,garden
+,14 avril 2021,Deluxe,Peak Season,18,150,Fandak Al Fakhama,470,FALSE,city
+,15 avril 2021,Suite,Peak Season,18,250,Muntaaz Al Bahar,471,TRUE,city
+,16 avril 2021,Standard,Peak Season,39,100,Nazl Al Jabal,472,FALSE,sea
+,17 avril 2021,Deluxe,Peak Season,39,150,Fandak Al Fakhama,473,TRUE,mountain
+,18 avril 2021,Suite,Peak Season,39,250,Fandak Al Madina,474,FALSE,city
+,19 avril 2021,Standard,Peak Season,1,100,Fandak Al Fakhama,475,TRUE,garden
+,20 avril 2021,Deluxe,Peak Season,1,150,Nazl Al Iqtisad,476,FALSE,garden
+,21 avril 2021,Suite,Peak Season,1,250,Fandak Al Fakhama,477,TRUE,mountain
+,22 avril 2021,Standard,Peak Season,71,100,Fandak Al Madina,478,FALSE,garden
+,23 avril 2021,Deluxe,Peak Season,71,150,Muntaaz Al Bahar,479,TRUE,garden
+,24 avril 2021,Suite,Peak Season,71,250,Fandak Al Fakhama,480,FALSE,mountain
+,25 avril 2021,Standard,Peak Season,58,100,Fandak Al Fakhama,481,FALSE,city
+,26 avril 2021,Deluxe,Peak Season,58,150,Fandak Al Fakhama,482,FALSE,city
+,27 avril 2021,Suite,Peak Season,58,250,Fandak Al Fakhama,483,TRUE,garden
+,28 avril 2021,Standard,Peak Season,20,100,Fandak Al Madina,484,FALSE,garden
+,29 avril 2021,Deluxe,Peak Season,20,150,Nazl Al Jabal,485,TRUE,city
+,30 avril 2021,Suite,Peak Season,20,250,Nazl Al Jabal,486,FALSE,mountain
+,1 mai 2021,Standard,Peak Season,8,100,Fandak Al Fakhama,487,TRUE,garden
+,2 mai 2021,Deluxe,Peak Season,8,150,Fandak Al Madina,488,FALSE,sea
+,3 mai 2021,Suite,Peak Season,8,250,Fandak Al Madina,489,TRUE,mountain
+,4 mai 2021,Standard,Peak Season,17,100,Fandak Al Fakhama,490,TRUE,garden
+,5 mai 2021,Deluxe,Peak Season,17,150,Nazl Al Iqtisad,491,FALSE,garden
+,6 mai 2021,Suite,Peak Season,17,250,Fandak Al Fakhama,492,TRUE,sea
+,7 mai 2021,Standard,Peak Season,28,100,Nazl Al Iqtisad,493,TRUE,sea
+,8 mai 2021,Deluxe,Peak Season,28,150,Fandak Al Fakhama,494,FALSE,city
+,9 mai 2021,Suite,Peak Season,28,250,Nazl Al Iqtisad,495,TRUE,mountain
+,10 mai 2021,Standard,Peak Season,43,100,Nazl Al Iqtisad,496,TRUE,mountain
+,11 mai 2021,Deluxe,Peak Season,43,150,Fandak Al Fakhama,497,TRUE,city
+,12 mai 2021,Suite,Peak Season,43,250,Nazl Al Iqtisad,498,FALSE,mountain
+,13 mai 2021,Standard,Peak Season,68,100,Muntaaz Al Bahar,499,TRUE,mountain
+,14 mai 2021,Deluxe,Peak Season,68,150,Nazl Al Jabal,500,FALSE,mountain
+,15 mai 2021,Suite,Peak Season,68,250,Fandak Al Madina,501,TRUE,mountain
+,16 mai 2021,Standard,Peak Season,39,100,Nazl Al Iqtisad,502,TRUE,mountain
+,17 mai 2021,Deluxe,Peak Season,39,150,Nazl Al Iqtisad,503,TRUE,sea
+,18 mai 2021,Suite,Peak Season,39,250,Fandak Al Madina,504,FALSE,mountain
+,19 mai 2021,Standard,Peak Season,47,100,Nazl Al Iqtisad,505,TRUE,sea
+,20 mai 2021,Deluxe,Peak Season,47,150,Fandak Al Madina,506,TRUE,mountain
+,21 mai 2021,Suite,Peak Season,47,250,Fandak Al Fakhama,507,FALSE,city
+,22 mai 2021,Standard,Peak Season,47,100,Muntaaz Al Bahar,508,TRUE,garden
+,23 mai 2021,Deluxe,Peak Season,47,150,Muntaaz Al Bahar,509,FALSE,sea
+,24 mai 2021,Suite,Peak Season,47,250,Nazl Al Jabal,510,FALSE,mountain
+,25 mai 2021,Standard,Peak Season,95,100,Nazl Al Iqtisad,511,TRUE,city
+,26 mai 2021,Deluxe,Peak Season,95,150,Nazl Al Jabal,512,FALSE,garden
+,27 mai 2021,Suite,Peak Season,95,250,Fandak Al Fakhama,513,TRUE,sea
+,28 mai 2021,Standard,Peak Season,6,100,Muntaaz Al Bahar,514,FALSE,garden
+,29 mai 2021,Deluxe,Peak Season,6,150,Fandak Al Fakhama,515,FALSE,city
+,30 mai 2021,Suite,Peak Season,6,250,Fandak Al Fakhama,516,TRUE,sea
+,31 mai 2021,Standard,Peak Season,63,100,Nazl Al Iqtisad,517,FALSE,garden
+,1 juin 2021,Deluxe,Peak Season,63,150,Fandak Al Fakhama,518,FALSE,mountain
+,2 juin 2021,Suite,Peak Season,63,250,Muntaaz Al Bahar,519,FALSE,sea
+,3 juin 2021,Standard,Peak Season,88,100,Nazl Al Jabal,520,FALSE,garden
+,4 juin 2021,Deluxe,Peak Season,88,150,Muntaaz Al Bahar,521,FALSE,city
+,5 juin 2021,Suite,Peak Season,88,250,Nazl Al Iqtisad,522,TRUE,city
+,6 juin 2021,Standard,Peak Season,4,100,Muntaaz Al Bahar,523,FALSE,sea
+,7 juin 2021,Deluxe,Peak Season,4,150,Fandak Al Madina,524,TRUE,garden
+,8 juin 2021,Suite,Peak Season,4,250,Nazl Al Jabal,525,FALSE,sea
+,9 juin 2021,Standard,Peak Season,74,100,Fandak Al Madina,526,TRUE,sea
+,10 juin 2021,Deluxe,Peak Season,74,150,Fandak Al Madina,527,TRUE,garden
+,11 juin 2021,Suite,Peak Season,74,250,Nazl Al Iqtisad,528,FALSE,garden
+,12 juin 2021,Standard,Peak Season,35,100,Fandak Al Fakhama,529,FALSE,mountain
+,13 juin 2021,Deluxe,Peak Season,35,150,Fandak Al Madina,530,FALSE,garden
+,14 juin 2021,Suite,Peak Season,35,250,Muntaaz Al Bahar,531,TRUE,city
+,15 juin 2021,Standard,Peak Season,23,100,Fandak Al Fakhama,532,FALSE,sea
+,16 juin 2021,Deluxe,Peak Season,23,150,Muntaaz Al Bahar,533,TRUE,sea
+,17 juin 2021,Suite,Peak Season,23,250,Muntaaz Al Bahar,534,TRUE,city
+,18 juin 2021,Standard,Peak Season,14,100,Fandak Al Fakhama,535,TRUE,garden
+,19 juin 2021,Deluxe,Peak Season,14,150,Fandak Al Fakhama,536,FALSE,city
+,20 juin 2021,Suite,Peak Season,14,250,Muntaaz Al Bahar,537,FALSE,city
+,21 juin 2021,Standard,Peak Season,37,100,Nazl Al Iqtisad,538,TRUE,mountain
+,22 juin 2021,Deluxe,Peak Season,37,150,Nazl Al Jabal,539,TRUE,city
+,23 juin 2021,Suite,Peak Season,37,250,Nazl Al Jabal,540,FALSE,sea
+,24 juin 2021,Standard,Peak Season,53,100,Nazl Al Iqtisad,541,TRUE,city
+,25 juin 2021,Deluxe,Peak Season,53,150,Fandak Al Fakhama,542,FALSE,sea
+,26 juin 2021,Suite,Peak Season,53,250,Muntaaz Al Bahar,543,TRUE,sea
+,27 juin 2021,Standard,Peak Season,99,100,Nazl Al Jabal,544,FALSE,sea
+,28 juin 2021,Deluxe,Peak Season,99,150,Muntaaz Al Bahar,545,TRUE,garden
+,29 juin 2021,Suite,Peak Season,99,250,Nazl Al Iqtisad,546,FALSE,mountain
+,30 juin 2021,Standard,Peak Season,66,100,Muntaaz Al Bahar,547,TRUE,sea
+,1 juillet 2021,Deluxe,Peak Season,66,150,Nazl Al Iqtisad,548,FALSE,sea
+,2 juillet 2021,Suite,Peak Season,66,250,Fandak Al Fakhama,549,FALSE,garden
+,3 juillet 2021,Standard,Peak Season,55,100,Nazl Al Iqtisad,550,TRUE,sea
+,4 juillet 2021,Deluxe,Peak Season,55,150,Nazl Al Iqtisad,551,TRUE,city
+,5 juillet 2021,Suite,Peak Season,55,250,Nazl Al Jabal,552,FALSE,city
+,6 juillet 2021,Standard,Peak Season,87,100,Muntaaz Al Bahar,553,TRUE,mountain
+,7 juillet 2021,Deluxe,Peak Season,87,150,Nazl Al Jabal,554,FALSE,sea
+,8 juillet 2021,Suite,Peak Season,87,250,Fandak Al Madina,555,TRUE,garden
+,9 juillet 2021,Standard,Peak Season,87,100,Nazl Al Iqtisad,556,FALSE,city
+,10 juillet 2021,Deluxe,Peak Season,87,150,Fandak Al Madina,557,FALSE,garden
+,11 juillet 2021,Suite,Peak Season,87,250,Nazl Al Jabal,558,FALSE,garden
+,12 juillet 2021,Standard,Peak Season,23,100,Muntaaz Al Bahar,559,FALSE,city
+,13 juillet 2021,Deluxe,Peak Season,23,150,Nazl Al Jabal,560,FALSE,garden
+,14 juillet 2021,Suite,Peak Season,23,250,Muntaaz Al Bahar,561,FALSE,city
+,15 juillet 2021,Standard,Peak Season,100,100,Muntaaz Al Bahar,562,TRUE,garden
+,16 juillet 2021,Deluxe,Peak Season,100,150,Fandak Al Fakhama,563,TRUE,city
+,17 juillet 2021,Suite,Peak Season,100,250,Nazl Al Iqtisad,564,TRUE,sea
+,18 juillet 2021,Standard,Peak Season,60,100,Nazl Al Jabal,565,FALSE,mountain
+,19 juillet 2021,Deluxe,Peak Season,60,150,Muntaaz Al Bahar,566,FALSE,city
+,20 juillet 2021,Suite,Peak Season,60,250,Nazl Al Jabal,567,FALSE,city
+,21 juillet 2021,Standard,Peak Season,81,100,Nazl Al Jabal,568,FALSE,mountain
+,22 juillet 2021,Deluxe,Peak Season,81,150,Muntaaz Al Bahar,569,TRUE,city
+,23 juillet 2021,Suite,Peak Season,81,250,Fandak Al Madina,570,TRUE,city
+,24 juillet 2021,Standard,Peak Season,71,100,Nazl Al Iqtisad,571,FALSE,garden
+,25 juillet 2021,Deluxe,Peak Season,71,150,Nazl Al Iqtisad,572,TRUE,mountain
+,26 juillet 2021,Suite,Peak Season,71,250,Fandak Al Fakhama,573,TRUE,sea
+,27 juillet 2021,Standard,Peak Season,43,100,Fandak Al Fakhama,574,FALSE,city
+,28 juillet 2021,Deluxe,Peak Season,43,150,Fandak Al Fakhama,575,TRUE,mountain
+,29 juillet 2021,Suite,Peak Season,43,250,Nazl Al Iqtisad,576,FALSE,garden
+,30 juillet 2021,Standard,Peak Season,40,100,Fandak Al Madina,577,TRUE,sea
+,31 juillet 2021,Deluxe,Peak Season,40,150,Nazl Al Iqtisad,578,FALSE,mountain
+,1 août 2021,Suite,Peak Season,40,250,Nazl Al Iqtisad,579,FALSE,sea
+,2 août 2021,Standard,Peak Season,70,100,Nazl Al Iqtisad,580,FALSE,sea
+,3 août 2021,Deluxe,Peak Season,70,150,Nazl Al Iqtisad,581,FALSE,sea
+,4 août 2021,Suite,Peak Season,70,250,Fandak Al Madina,582,TRUE,city
+,5 août 2021,Standard,Peak Season,77,100,Fandak Al Fakhama,583,FALSE,city
+,6 août 2021,Deluxe,Peak Season,77,150,Nazl Al Jabal,584,FALSE,garden
+,7 août 2021,Suite,Peak Season,77,250,Fandak Al Fakhama,585,FALSE,garden
+,8 août 2021,Standard,Peak Season,50,100,Fandak Al Fakhama,586,TRUE,mountain
+,9 août 2021,Deluxe,Peak Season,50,150,Nazl Al Jabal,587,FALSE,garden
+,10 août 2021,Suite,Peak Season,50,250,Nazl Al Iqtisad,588,TRUE,sea
+,11 août 2021,Standard,Peak Season,10,100,Fandak Al Madina,589,FALSE,sea
+,12 août 2021,Deluxe,Peak Season,10,150,Fandak Al Madina,590,TRUE,city
+,13 août 2021,Suite,Peak Season,10,250,Fandak Al Fakhama,591,TRUE,sea
+,14 août 2021,Standard,Peak Season,87,100,Nazl Al Jabal,592,FALSE,mountain
+,15 août 2021,Deluxe,Peak Season,87,150,Muntaaz Al Bahar,593,TRUE,sea
+,16 août 2021,Suite,Peak Season,87,250,Nazl Al Iqtisad,594,FALSE,sea
+,17 août 2021,Standard,Peak Season,48,100,Fandak Al Fakhama,595,FALSE,mountain
+,18 août 2021,Deluxe,Peak Season,48,150,Fandak Al Madina,596,FALSE,garden
+,19 août 2021,Suite,Peak Season,48,250,Nazl Al Jabal,597,TRUE,garden
+,20 août 2021,Standard,Peak Season,10,100,Nazl Al Jabal,598,TRUE,mountain
+,21 août 2021,Deluxe,Peak Season,10,150,Fandak Al Fakhama,599,FALSE,city
+,22 août 2021,Suite,Peak Season,10,250,Muntaaz Al Bahar,600,FALSE,sea
+,23 août 2021,Standard,Peak Season,18,100,Fandak Al Madina,601,TRUE,mountain
+,24 août 2021,Deluxe,Peak Season,18,150,Fandak Al Fakhama,602,FALSE,sea
+,25 août 2021,Suite,Peak Season,18,250,Muntaaz Al Bahar,603,FALSE,city
+,26 août 2021,Standard,Peak Season,55,100,Nazl Al Jabal,604,FALSE,sea
+,27 août 2021,Deluxe,Peak Season,55,150,Nazl Al Iqtisad,605,TRUE,mountain
+,28 août 2021,Suite,Peak Season,55,250,Fandak Al Madina,606,TRUE,sea
+,29 août 2021,Standard,Peak Season,32,100,Fandak Al Madina,607,TRUE,garden
+,30 août 2021,Deluxe,Peak Season,32,150,Muntaaz Al Bahar,608,FALSE,city
+,31 août 2021,Suite,Peak Season,32,250,Fandak Al Fakhama,609,FALSE,city
+,1 septembre 2021,Standard,Peak Season,1,100,Nazl Al Jabal,610,FALSE,city
+,2 septembre 2021,Deluxe,Peak Season,1,150,Muntaaz Al Bahar,611,TRUE,mountain
+,3 septembre 2021,Suite,Peak Season,1,250,Nazl Al Iqtisad,612,FALSE,city
+,4 septembre 2021,Standard,Peak Season,36,100,Nazl Al Iqtisad,613,FALSE,garden
+,5 septembre 2021,Deluxe,Peak Season,36,150,Nazl Al Iqtisad,614,FALSE,mountain
+,6 septembre 2021,Suite,Peak Season,36,250,Muntaaz Al Bahar,615,FALSE,garden
+,7 septembre 2021,Standard,Peak Season,71,100,Nazl Al Jabal,616,TRUE,sea
+,8 septembre 2021,Deluxe,Peak Season,71,150,Fandak Al Madina,617,TRUE,sea
+,9 septembre 2021,Suite,Peak Season,71,250,Fandak Al Fakhama,618,FALSE,sea
+,10 septembre 2021,Standard,Peak Season,86,100,Fandak Al Madina,619,TRUE,sea
+,11 septembre 2021,Deluxe,Peak Season,86,150,Nazl Al Jabal,620,TRUE,garden
+,12 septembre 2021,Suite,Peak Season,86,250,Fandak Al Madina,621,FALSE,mountain
+,13 septembre 2021,Standard,Peak Season,6,100,Muntaaz Al Bahar,622,FALSE,mountain
+,14 septembre 2021,Deluxe,Peak Season,6,150,Nazl Al Iqtisad,623,TRUE,city
+,15 septembre 2021,Suite,Peak Season,6,250,Nazl Al Jabal,624,FALSE,garden
+,16 septembre 2021,Standard,Peak Season,32,100,Nazl Al Jabal,625,TRUE,sea
+,17 septembre 2021,Deluxe,Peak Season,32,150,Fandak Al Madina,626,FALSE,garden
+,18 septembre 2021,Suite,Peak Season,32,250,Muntaaz Al Bahar,627,TRUE,city
+,19 septembre 2021,Standard,Peak Season,32,100,Fandak Al Madina,628,FALSE,city
+,20 septembre 2021,Deluxe,Peak Season,32,150,Fandak Al Madina,629,TRUE,garden
+,21 septembre 2021,Suite,Peak Season,32,250,Nazl Al Jabal,630,TRUE,garden
+,22 septembre 2021,Standard,Peak Season,26,100,Fandak Al Madina,631,TRUE,garden
+,23 septembre 2021,Deluxe,Peak Season,26,150,Nazl Al Iqtisad,632,FALSE,mountain
+,24 septembre 2021,Suite,Peak Season,26,250,Fandak Al Madina,633,TRUE,sea
+,25 septembre 2021,Standard,Peak Season,87,100,Nazl Al Iqtisad,634,TRUE,garden
+,26 septembre 2021,Deluxe,Peak Season,87,150,Nazl Al Jabal,635,FALSE,garden
+,27 septembre 2021,Suite,Peak Season,87,250,Muntaaz Al Bahar,636,FALSE,garden
+,28 septembre 2021,Standard,Peak Season,6,100,Nazl Al Iqtisad,637,TRUE,city
+,29 septembre 2021,Deluxe,Peak Season,6,150,Muntaaz Al Bahar,638,TRUE,city
+,30 septembre 2021,Suite,Peak Season,6,250,Muntaaz Al Bahar,639,FALSE,mountain
+,1 octobre 2021,Standard,Peak Season,80,100,Nazl Al Iqtisad,640,FALSE,sea
+,2 octobre 2021,Deluxe,Peak Season,80,150,Nazl Al Jabal,641,FALSE,mountain
+,3 octobre 2021,Suite,Peak Season,80,250,Fandak Al Fakhama,642,FALSE,sea
+,4 octobre 2021,Standard,Peak Season,58,100,Muntaaz Al Bahar,643,FALSE,city
+,5 octobre 2021,Deluxe,Peak Season,58,150,Muntaaz Al Bahar,644,TRUE,city
+,6 octobre 2021,Suite,Peak Season,58,250,Nazl Al Jabal,645,FALSE,city
+,7 octobre 2021,Standard,Peak Season,81,100,Nazl Al Jabal,646,TRUE,mountain
+,8 octobre 2021,Deluxe,Peak Season,81,150,Fandak Al Madina,647,TRUE,garden
+,9 octobre 2021,Suite,Peak Season,81,250,Nazl Al Jabal,648,TRUE,garden
+,10 octobre 2021,Standard,Peak Season,87,100,Muntaaz Al Bahar,649,FALSE,city
+,11 octobre 2021,Deluxe,Peak Season,87,150,Nazl Al Iqtisad,650,TRUE,garden
+,12 octobre 2021,Suite,Peak Season,87,250,Fandak Al Fakhama,651,TRUE,garden
+,13 octobre 2021,Standard,Peak Season,73,100,Fandak Al Madina,652,FALSE,mountain
+,14 octobre 2021,Deluxe,Peak Season,73,150,Nazl Al Iqtisad,653,TRUE,sea
+,15 octobre 2021,Suite,Peak Season,73,250,Fandak Al Fakhama,654,TRUE,city
+,16 octobre 2021,Standard,Peak Season,95,100,Fandak Al Fakhama,655,FALSE,city
+,17 octobre 2021,Deluxe,Peak Season,95,150,Fandak Al Fakhama,656,TRUE,mountain
+,18 octobre 2021,Suite,Peak Season,95,250,Nazl Al Iqtisad,657,TRUE,mountain
+,19 octobre 2021,Standard,Peak Season,12,100,Fandak Al Madina,658,TRUE,garden
+,20 octobre 2021,Deluxe,Peak Season,12,150,Fandak Al Madina,659,FALSE,city
+,21 octobre 2021,Suite,Peak Season,12,250,Fandak Al Fakhama,660,FALSE,sea
+,22 octobre 2021,Standard,Peak Season,43,100,Nazl Al Iqtisad,661,FALSE,mountain
+,23 octobre 2021,Deluxe,Peak Season,43,150,Fandak Al Fakhama,662,TRUE,sea
+,24 octobre 2021,Suite,Peak Season,43,250,Nazl Al Jabal,663,TRUE,sea
+,25 octobre 2021,Standard,Peak Season,70,100,Fandak Al Madina,664,FALSE,city
+,26 octobre 2021,Deluxe,Peak Season,70,150,Muntaaz Al Bahar,665,TRUE,city
+,27 octobre 2021,Suite,Peak Season,70,250,Fandak Al Fakhama,666,TRUE,mountain
+,28 octobre 2021,Standard,Peak Season,96,100,Nazl Al Jabal,667,FALSE,city
+,29 octobre 2021,Deluxe,Peak Season,96,150,Fandak Al Madina,668,FALSE,city
+,30 octobre 2021,Suite,Peak Season,96,250,Nazl Al Iqtisad,669,TRUE,city
+,31 octobre 2021,Standard,Peak Season,32,100,Fandak Al Madina,670,TRUE,sea
+,1 novembre 2021,Deluxe,Peak Season,32,150,Nazl Al Iqtisad,671,TRUE,mountain
+,2 novembre 2021,Suite,Peak Season,32,250,Nazl Al Iqtisad,672,FALSE,garden
+,3 novembre 2021,Standard,Peak Season,34,100,Fandak Al Fakhama,673,FALSE,sea
+,4 novembre 2021,Deluxe,Peak Season,34,150,Fandak Al Fakhama,674,FALSE,city
+,5 novembre 2021,Suite,Peak Season,34,250,Fandak Al Madina,675,FALSE,sea
+,6 novembre 2021,Standard,Peak Season,11,100,Nazl Al Jabal,676,TRUE,city
+,7 novembre 2021,Deluxe,Peak Season,11,150,Fandak Al Madina,677,FALSE,city
+,8 novembre 2021,Suite,Peak Season,11,250,Muntaaz Al Bahar,678,FALSE,sea
+,9 novembre 2021,Standard,Peak Season,88,100,Nazl Al Iqtisad,679,FALSE,mountain
+,10 novembre 2021,Deluxe,Peak Season,88,150,Nazl Al Iqtisad,680,FALSE,city
+,11 novembre 2021,Suite,Peak Season,88,250,Fandak Al Fakhama,681,FALSE,mountain
+,12 novembre 2021,Standard,Peak Season,99,100,Nazl Al Jabal,682,TRUE,garden
+,13 novembre 2021,Deluxe,Peak Season,99,150,Fandak Al Fakhama,683,TRUE,city
+,14 novembre 2021,Suite,Peak Season,99,250,Muntaaz Al Bahar,684,FALSE,mountain
+,15 novembre 2021,Standard,Peak Season,19,100,Fandak Al Madina,685,TRUE,mountain
+,16 novembre 2021,Deluxe,Peak Season,19,150,Fandak Al Madina,686,FALSE,garden
+,17 novembre 2021,Suite,Peak Season,19,250,Nazl Al Jabal,687,FALSE,mountain
+,18 novembre 2021,Standard,Peak Season,89,100,Fandak Al Fakhama,688,TRUE,mountain
+,19 novembre 2021,Deluxe,Peak Season,89,150,Fandak Al Fakhama,689,TRUE,garden
+,20 novembre 2021,Suite,Peak Season,89,250,Muntaaz Al Bahar,690,FALSE,city
+,21 novembre 2021,Standard,Peak Season,69,100,Fandak Al Madina,691,FALSE,mountain
+,22 novembre 2021,Deluxe,Peak Season,69,150,Fandak Al Fakhama,692,FALSE,mountain
+,23 novembre 2021,Suite,Peak Season,69,250,Nazl Al Jabal,693,TRUE,mountain
+,24 novembre 2021,Standard,Peak Season,87,100,Fandak Al Madina,694,FALSE,sea
+,25 novembre 2021,Deluxe,Peak Season,87,150,Muntaaz Al Bahar,695,FALSE,garden
+,26 novembre 2021,Suite,Peak Season,87,250,Nazl Al Jabal,696,FALSE,sea
+,27 novembre 2021,Standard,Peak Season,43,100,Nazl Al Iqtisad,697,TRUE,garden
+,28 novembre 2021,Deluxe,Peak Season,43,150,Muntaaz Al Bahar,698,FALSE,city
+,29 novembre 2021,Suite,Peak Season,43,250,Nazl Al Jabal,699,FALSE,city
+,30 novembre 2021,Standard,Peak Season,58,100,Fandak Al Fakhama,700,TRUE,mountain
+,1 décembre 2021,Deluxe,Peak Season,58,150,Nazl Al Iqtisad,701,FALSE,garden
+,2 décembre 2021,Suite,Peak Season,58,250,Muntaaz Al Bahar,702,FALSE,city
+,3 décembre 2021,Standard,Peak Season,98,100,Fandak Al Fakhama,703,TRUE,garden
+,4 décembre 2021,Deluxe,Peak Season,98,150,Nazl Al Iqtisad,704,FALSE,city
+,5 décembre 2021,Suite,Peak Season,98,250,Fandak Al Madina,705,TRUE,sea
+,6 décembre 2021,Standard,Peak Season,79,100,Fandak Al Fakhama,706,TRUE,city
+,7 décembre 2021,Deluxe,Peak Season,79,150,Nazl Al Jabal,707,FALSE,sea
+,8 décembre 2021,Suite,Peak Season,79,250,Muntaaz Al Bahar,708,FALSE,city
+,9 décembre 2021,Standard,Peak Season,60,100,Nazl Al Iqtisad,709,FALSE,mountain
+,10 décembre 2021,Deluxe,Peak Season,60,150,Fandak Al Fakhama,710,FALSE,sea
+,11 décembre 2021,Suite,Peak Season,60,250,Fandak Al Madina,711,TRUE,city
+,12 décembre 2021,Standard,Peak Season,52,100,Muntaaz Al Bahar,712,FALSE,mountain
+,13 décembre 2021,Deluxe,Peak Season,52,150,Muntaaz Al Bahar,713,TRUE,sea
+,14 décembre 2021,Suite,Peak Season,52,250,Fandak Al Fakhama,714,FALSE,mountain
+,15 décembre 2021,Standard,Peak Season,18,100,Fandak Al Madina,715,FALSE,garden
+,16 décembre 2021,Deluxe,Peak Season,18,150,Nazl Al Iqtisad,716,FALSE,garden
+,17 décembre 2021,Suite,Peak Season,18,250,Fandak Al Fakhama,717,TRUE,sea
+,18 décembre 2021,Standard,Peak Season,11,100,Nazl Al Iqtisad,718,FALSE,city
+,19 décembre 2021,Deluxe,Peak Season,11,150,Muntaaz Al Bahar,719,FALSE,sea
+,20 décembre 2021,Suite,Peak Season,11,250,Nazl Al Iqtisad,720,FALSE,mountain
+,21 décembre 2021,Standard,Peak Season,53,100,Fandak Al Madina,721,FALSE,city
+,22 décembre 2021,Deluxe,Peak Season,53,150,Nazl Al Jabal,722,TRUE,garden
+,23 décembre 2021,Suite,Peak Season,53,250,Fandak Al Madina,723,FALSE,city
+,24 décembre 2021,Standard,Peak Season,83,100,Nazl Al Iqtisad,724,TRUE,garden
+,25 décembre 2021,Deluxe,Peak Season,83,150,Fandak Al Fakhama,725,TRUE,city
+,26 décembre 2021,Suite,Peak Season,83,250,Muntaaz Al Bahar,726,TRUE,city
+,27 décembre 2021,Standard,Peak Season,67,100,Nazl Al Jabal,727,TRUE,city
+,28 décembre 2021,Deluxe,Peak Season,67,150,Fandak Al Fakhama,728,TRUE,mountain
+,29 décembre 2021,Suite,Peak Season,67,250,Fandak Al Fakhama,729,TRUE,mountain
+,30 décembre 2021,Standard,Peak Season,54,100,Fandak Al Madina,730,FALSE,sea
+,31 décembre 2021,Deluxe,Peak Season,54,150,Nazl Al Iqtisad,731,TRUE,sea
+,1 janvier 2022,Suite,Peak Season,54,250,Fandak Al Madina,732,TRUE,garden
+,2 janvier 2022,Standard,Peak Season,11,100,Nazl Al Iqtisad,733,TRUE,mountain
+,3 janvier 2022,Deluxe,Peak Season,11,150,Fandak Al Madina,734,FALSE,garden
+,4 janvier 2022,Suite,Peak Season,11,250,Fandak Al Fakhama,735,FALSE,sea
+,5 janvier 2022,Standard,Peak Season,35,100,Muntaaz Al Bahar,736,TRUE,garden
+,6 janvier 2022,Deluxe,Peak Season,35,150,Nazl Al Iqtisad,737,FALSE,sea
+,7 janvier 2022,Suite,Peak Season,35,250,Nazl Al Jabal,738,TRUE,mountain
+,8 janvier 2022,Standard,Peak Season,56,100,Nazl Al Jabal,739,TRUE,city
+,9 janvier 2022,Deluxe,Peak Season,56,150,Fandak Al Fakhama,740,FALSE,mountain
+,10 janvier 2022,Suite,Peak Season,56,250,Fandak Al Madina,741,TRUE,garden
+,11 janvier 2022,Standard,Peak Season,92,100,Fandak Al Madina,742,FALSE,garden
+,12 janvier 2022,Deluxe,Peak Season,92,150,Fandak Al Fakhama,743,FALSE,mountain
+,13 janvier 2022,Suite,Peak Season,92,250,Nazl Al Jabal,744,TRUE,mountain
+,14 janvier 2022,Standard,Peak Season,49,100,Nazl Al Jabal,745,TRUE,sea
+,15 janvier 2022,Deluxe,Peak Season,49,150,Fandak Al Madina,746,FALSE,garden
+,16 janvier 2022,Suite,Peak Season,49,250,Nazl Al Iqtisad,747,TRUE,garden
+,17 janvier 2022,Standard,Peak Season,92,100,Muntaaz Al Bahar,748,TRUE,mountain
+,18 janvier 2022,Deluxe,Peak Season,92,150,Nazl Al Iqtisad,749,TRUE,city
+,19 janvier 2022,Suite,Peak Season,92,250,Nazl Al Jabal,750,FALSE,garden
+,20 janvier 2022,Standard,Peak Season,74,100,Nazl Al Iqtisad,751,FALSE,city
+,21 janvier 2022,Deluxe,Peak Season,74,150,Muntaaz Al Bahar,752,TRUE,mountain
+,22 janvier 2022,Suite,Peak Season,74,250,Nazl Al Iqtisad,753,FALSE,mountain
+,23 janvier 2022,Standard,Peak Season,59,100,Nazl Al Iqtisad,754,FALSE,sea
+,24 janvier 2022,Deluxe,Peak Season,59,150,Nazl Al Iqtisad,755,FALSE,garden
+,25 janvier 2022,Suite,Peak Season,59,250,Nazl Al Iqtisad,756,FALSE,city
+,26 janvier 2022,Standard,Peak Season,99,100,Fandak Al Fakhama,757,FALSE,sea
+,27 janvier 2022,Deluxe,Peak Season,99,150,Nazl Al Jabal,758,TRUE,garden
+,28 janvier 2022,Suite,Peak Season,99,250,Muntaaz Al Bahar,759,TRUE,sea
+,29 janvier 2022,Standard,Peak Season,90,100,Nazl Al Jabal,760,TRUE,mountain
+,30 janvier 2022,Deluxe,Peak Season,90,150,Fandak Al Fakhama,761,FALSE,garden
+,31 janvier 2022,Suite,Peak Season,90,250,Fandak Al Fakhama,762,FALSE,sea
+,1 février 2022,Standard,Peak Season,69,100,Fandak Al Fakhama,763,TRUE,sea
+,2 février 2022,Deluxe,Peak Season,69,150,Fandak Al Fakhama,764,FALSE,city
+,3 février 2022,Suite,Peak Season,69,250,Nazl Al Iqtisad,765,TRUE,sea
+,4 février 2022,Standard,Peak Season,54,100,Nazl Al Jabal,766,TRUE,garden
+,5 février 2022,Deluxe,Peak Season,54,150,Fandak Al Madina,767,TRUE,garden
+,6 février 2022,Suite,Peak Season,54,250,Muntaaz Al Bahar,768,FALSE,city
+,7 février 2022,Standard,Peak Season,1,100,Fandak Al Fakhama,769,FALSE,garden
+,8 février 2022,Deluxe,Peak Season,1,150,Nazl Al Jabal,770,TRUE,mountain
+,9 février 2022,Suite,Peak Season,1,250,Fandak Al Fakhama,771,TRUE,garden
+,10 février 2022,Standard,Peak Season,59,100,Fandak Al Fakhama,772,TRUE,garden
+,11 février 2022,Deluxe,Peak Season,59,150,Fandak Al Fakhama,773,TRUE,sea
+,12 février 2022,Suite,Peak Season,59,250,Fandak Al Fakhama,774,FALSE,sea
+,13 février 2022,Standard,Peak Season,97,100,Fandak Al Fakhama,775,FALSE,garden
+,14 février 2022,Deluxe,Peak Season,97,150,Muntaaz Al Bahar,776,TRUE,city
+,15 février 2022,Suite,Peak Season,97,250,Nazl Al Jabal,777,TRUE,sea
+,16 février 2022,Standard,Peak Season,15,100,Fandak Al Fakhama,778,FALSE,city
+,17 février 2022,Deluxe,Peak Season,15,150,Fandak Al Fakhama,779,FALSE,garden
+,18 février 2022,Suite,Peak Season,15,250,Fandak Al Fakhama,780,TRUE,garden
+,19 février 2022,Standard,Peak Season,86,100,Fandak Al Fakhama,781,TRUE,mountain
+,20 février 2022,Deluxe,Peak Season,86,150,Nazl Al Iqtisad,782,TRUE,sea
+,21 février 2022,Suite,Peak Season,86,250,Nazl Al Iqtisad,783,FALSE,garden
+,22 février 2022,Standard,Peak Season,65,100,Fandak Al Madina,784,FALSE,mountain
+,23 février 2022,Deluxe,Peak Season,65,150,Fandak Al Fakhama,785,FALSE,sea
+,24 février 2022,Suite,Peak Season,65,250,Fandak Al Madina,786,TRUE,garden
+,25 février 2022,Standard,Peak Season,47,100,Muntaaz Al Bahar,787,TRUE,garden
+,26 février 2022,Deluxe,Peak Season,47,150,Fandak Al Madina,788,FALSE,sea
+,27 février 2022,Suite,Peak Season,47,250,Nazl Al Jabal,789,FALSE,sea
+,28 février 2022,Standard,Peak Season,50,100,Nazl Al Iqtisad,790,TRUE,sea
+,1 mars 2022,Deluxe,Peak Season,50,150,Nazl Al Iqtisad,791,FALSE,garden
+,2 mars 2022,Suite,Peak Season,50,250,Fandak Al Fakhama,792,FALSE,garden
+,3 mars 2022,Standard,Peak Season,15,100,Fandak Al Fakhama,793,TRUE,mountain
+,4 mars 2022,Deluxe,Peak Season,15,150,Muntaaz Al Bahar,794,FALSE,city
+,5 mars 2022,Suite,Peak Season,15,250,Muntaaz Al Bahar,795,TRUE,sea
+,6 mars 2022,Standard,Peak Season,88,100,Nazl Al Jabal,796,TRUE,garden
+,7 mars 2022,Deluxe,Peak Season,88,150,Fandak Al Fakhama,797,TRUE,garden
+,8 mars 2022,Suite,Peak Season,88,250,Fandak Al Fakhama,798,TRUE,sea
+,9 mars 2022,Standard,Peak Season,10,100,Muntaaz Al Bahar,799,TRUE,city
+,10 mars 2022,Deluxe,Peak Season,10,150,Muntaaz Al Bahar,800,TRUE,sea
+,11 mars 2022,Suite,Peak Season,10,250,Muntaaz Al Bahar,801,TRUE,city
+,12 mars 2022,Standard,Peak Season,29,100,Nazl Al Iqtisad,802,FALSE,garden
+,13 mars 2022,Deluxe,Peak Season,29,150,Fandak Al Madina,803,TRUE,city
+,14 mars 2022,Suite,Peak Season,29,250,Fandak Al Madina,804,TRUE,mountain
+,15 mars 2022,Standard,Peak Season,70,100,Fandak Al Fakhama,805,FALSE,garden
+,16 mars 2022,Deluxe,Peak Season,70,150,Nazl Al Iqtisad,806,FALSE,mountain
+,17 mars 2022,Suite,Peak Season,70,250,Muntaaz Al Bahar,807,FALSE,sea
+,18 mars 2022,Standard,Peak Season,53,100,Fandak Al Fakhama,808,TRUE,sea
+,19 mars 2022,Deluxe,Peak Season,53,150,Nazl Al Iqtisad,809,FALSE,sea
+,20 mars 2022,Suite,Peak Season,53,250,Nazl Al Jabal,810,TRUE,city
+,21 mars 2022,Standard,Peak Season,23,100,Nazl Al Iqtisad,811,TRUE,garden
+,22 mars 2022,Deluxe,Peak Season,23,150,Fandak Al Fakhama,812,TRUE,sea
+,23 mars 2022,Suite,Peak Season,23,250,Fandak Al Madina,813,TRUE,sea
+,24 mars 2022,Standard,Peak Season,89,100,Muntaaz Al Bahar,814,FALSE,garden
+,25 mars 2022,Deluxe,Peak Season,89,150,Nazl Al Jabal,815,FALSE,sea
+,26 mars 2022,Suite,Peak Season,89,250,Nazl Al Iqtisad,816,TRUE,mountain
+,27 mars 2022,Standard,Peak Season,66,100,Fandak Al Fakhama,817,TRUE,garden
+,28 mars 2022,Deluxe,Peak Season,66,150,Fandak Al Fakhama,818,TRUE,garden
+,29 mars 2022,Suite,Peak Season,66,250,Muntaaz Al Bahar,819,FALSE,garden
+,30 mars 2022,Standard,Off-Season,35,100,Fandak Al Fakhama,820,TRUE,mountain
+,31 mars 2022,Deluxe,Off-Season,35,150,Fandak Al Fakhama,821,TRUE,garden
+,1 avril 2022,Suite,Off-Season,35,250,Muntaaz Al Bahar,822,FALSE,mountain
+,2 avril 2022,Standard,Off-Season,41,100,Nazl Al Jabal,823,FALSE,garden
+,3 avril 2022,Deluxe,Off-Season,41,150,Fandak Al Madina,824,TRUE,city
+,4 avril 2022,Suite,Off-Season,41,250,Fandak Al Madina,825,FALSE,sea
+,5 avril 2022,Standard,Off-Season,4,100,Nazl Al Iqtisad,826,FALSE,city
+,6 avril 2022,Deluxe,Off-Season,4,150,Nazl Al Jabal,827,TRUE,sea
+,7 avril 2022,Suite,Off-Season,4,250,Nazl Al Iqtisad,828,FALSE,mountain
+,8 avril 2022,Standard,Off-Season,89,100,Fandak Al Madina,829,TRUE,city
+,9 avril 2022,Deluxe,Off-Season,89,150,Muntaaz Al Bahar,830,FALSE,garden
+,10 avril 2022,Suite,Off-Season,89,250,Fandak Al Fakhama,831,TRUE,sea
+,11 avril 2022,Standard,Off-Season,49,100,Fandak Al Madina,832,TRUE,sea
+,12 avril 2022,Deluxe,Off-Season,49,150,Nazl Al Jabal,833,TRUE,city
+,13 avril 2022,Suite,Off-Season,49,250,Fandak Al Madina,834,FALSE,mountain
+,14 avril 2022,Standard,Off-Season,96,100,Nazl Al Jabal,835,TRUE,city
+,15 avril 2022,Deluxe,Off-Season,96,150,Nazl Al Jabal,836,FALSE,mountain
+,16 avril 2022,Suite,Off-Season,96,250,Nazl Al Jabal,837,TRUE,mountain
+,17 avril 2022,Standard,Off-Season,1,100,Nazl Al Iqtisad,838,TRUE,sea
+,18 avril 2022,Deluxe,Off-Season,1,150,Muntaaz Al Bahar,839,FALSE,city
+,19 avril 2022,Suite,Off-Season,1,250,Fandak Al Madina,840,TRUE,city
+,20 avril 2022,Standard,Off-Season,51,100,Muntaaz Al Bahar,841,TRUE,mountain
+,21 avril 2022,Deluxe,Off-Season,51,150,Fandak Al Fakhama,842,FALSE,city
+,22 avril 2022,Suite,Off-Season,51,250,Fandak Al Madina,843,TRUE,garden
+,23 avril 2022,Standard,Off-Season,28,100,Muntaaz Al Bahar,844,TRUE,garden
+,24 avril 2022,Deluxe,Off-Season,28,150,Muntaaz Al Bahar,845,TRUE,city
+,25 avril 2022,Suite,Off-Season,28,250,Fandak Al Fakhama,846,TRUE,city
+,26 avril 2022,Standard,Off-Season,1,100,Nazl Al Jabal,847,FALSE,mountain
+,27 avril 2022,Deluxe,Off-Season,1,150,Fandak Al Madina,848,FALSE,garden
+,28 avril 2022,Suite,Off-Season,1,250,Fandak Al Madina,849,TRUE,garden
+,29 avril 2022,Standard,Off-Season,70,100,Fandak Al Fakhama,850,FALSE,sea
+,30 avril 2022,Deluxe,Off-Season,70,150,Nazl Al Jabal,851,TRUE,mountain
+,1 mai 2022,Suite,Off-Season,70,250,Fandak Al Madina,852,FALSE,sea
+,2 mai 2022,Standard,Off-Season,3,100,Fandak Al Madina,853,TRUE,garden
+,3 mai 2022,Deluxe,Off-Season,3,150,Fandak Al Madina,854,TRUE,mountain
+,4 mai 2022,Suite,Off-Season,3,250,Nazl Al Jabal,855,TRUE,city
+,5 mai 2022,Standard,Off-Season,57,100,Fandak Al Fakhama,856,TRUE,mountain
+,6 mai 2022,Deluxe,Off-Season,57,150,Fandak Al Madina,857,TRUE,city
+,7 mai 2022,Suite,Off-Season,57,250,Muntaaz Al Bahar,858,TRUE,city
+,8 mai 2022,Standard,Off-Season,32,100,Nazl Al Jabal,859,FALSE,mountain
+,9 mai 2022,Deluxe,Off-Season,32,150,Nazl Al Iqtisad,860,TRUE,city
+,10 mai 2022,Suite,Off-Season,32,250,Fandak Al Fakhama,861,FALSE,sea
+,11 mai 2022,Standard,Off-Season,49,100,Muntaaz Al Bahar,862,TRUE,garden
+,12 mai 2022,Deluxe,Off-Season,49,150,Fandak Al Madina,863,FALSE,city
+,13 mai 2022,Suite,Off-Season,49,250,Nazl Al Iqtisad,864,FALSE,sea
+,14 mai 2022,Standard,Off-Season,2,100,Fandak Al Fakhama,865,FALSE,city
+,15 mai 2022,Deluxe,Off-Season,2,150,Nazl Al Jabal,866,TRUE,garden
+,16 mai 2022,Suite,Off-Season,2,250,Nazl Al Iqtisad,867,TRUE,sea
+,17 mai 2022,Standard,Off-Season,10,100,Nazl Al Iqtisad,868,FALSE,garden
+,18 mai 2022,Deluxe,Off-Season,10,150,Muntaaz Al Bahar,869,TRUE,garden
+,19 mai 2022,Suite,Off-Season,10,250,Fandak Al Fakhama,870,FALSE,sea
+,20 mai 2022,Standard,Off-Season,53,100,Muntaaz Al Bahar,871,TRUE,sea
+,21 mai 2022,Deluxe,Off-Season,53,150,Muntaaz Al Bahar,872,FALSE,sea
+,22 mai 2022,Suite,Off-Season,53,250,Fandak Al Madina,873,FALSE,mountain
+,23 mai 2022,Standard,Off-Season,88,100,Nazl Al Jabal,874,TRUE,sea
+,24 mai 2022,Deluxe,Off-Season,88,150,Nazl Al Iqtisad,875,FALSE,sea
+,25 mai 2022,Suite,Off-Season,88,250,Fandak Al Fakhama,876,TRUE,sea
+,26 mai 2022,Standard,Off-Season,95,100,Nazl Al Jabal,877,FALSE,sea
+,27 mai 2022,Deluxe,Off-Season,95,150,Nazl Al Jabal,878,FALSE,city
+,28 mai 2022,Suite,Off-Season,95,250,Fandak Al Fakhama,879,TRUE,mountain
+,29 mai 2022,Standard,Off-Season,100,100,Nazl Al Jabal,880,TRUE,garden
+,30 mai 2022,Deluxe,Off-Season,100,150,Fandak Al Madina,881,TRUE,sea
+,31 mai 2022,Suite,Off-Season,100,250,Nazl Al Jabal,882,FALSE,city
+,1 juin 2022,Standard,Off-Season,19,100,Fandak Al Madina,883,TRUE,city
+,2 juin 2022,Deluxe,Off-Season,19,150,Nazl Al Iqtisad,884,FALSE,city
+,3 juin 2022,Suite,Off-Season,19,250,Nazl Al Iqtisad,885,FALSE,garden
+,4 juin 2022,Standard,Off-Season,46,100,Muntaaz Al Bahar,886,TRUE,sea
+,5 juin 2022,Deluxe,Off-Season,46,150,Fandak Al Madina,887,TRUE,mountain
+,6 juin 2022,Suite,Off-Season,46,250,Nazl Al Iqtisad,888,FALSE,mountain
+,7 juin 2022,Standard,Off-Season,97,100,Nazl Al Jabal,889,FALSE,city
+,8 juin 2022,Deluxe,Off-Season,97,150,Fandak Al Fakhama,890,TRUE,garden
+,9 juin 2022,Suite,Off-Season,97,250,Fandak Al Fakhama,891,TRUE,garden
+,10 juin 2022,Standard,Off-Season,48,100,Fandak Al Madina,892,TRUE,garden
+,11 juin 2022,Deluxe,Off-Season,48,150,Muntaaz Al Bahar,893,TRUE,mountain
+,12 juin 2022,Suite,Off-Season,48,250,Nazl Al Jabal,894,TRUE,city
+,13 juin 2022,Standard,Off-Season,2,100,Fandak Al Madina,895,FALSE,sea
+,14 juin 2022,Deluxe,Off-Season,2,150,Fandak Al Fakhama,896,FALSE,mountain
+,15 juin 2022,Suite,Off-Season,2,250,Fandak Al Madina,897,FALSE,city
+,16 juin 2022,Standard,Off-Season,51,100,Nazl Al Jabal,898,FALSE,city
+,17 juin 2022,Deluxe,Off-Season,51,150,Nazl Al Iqtisad,899,TRUE,sea
+,18 juin 2022,Suite,Off-Season,51,250,Nazl Al Jabal,900,TRUE,sea
+,19 juin 2022,Standard,Off-Season,91,100,Nazl Al Iqtisad,901,TRUE,sea
+,20 juin 2022,Deluxe,Off-Season,91,150,Nazl Al Iqtisad,902,FALSE,garden
+,21 juin 2022,Suite,Off-Season,91,250,Nazl Al Iqtisad,903,FALSE,sea
+,22 juin 2022,Standard,Off-Season,90,100,Fandak Al Madina,904,TRUE,city
+,23 juin 2022,Deluxe,Off-Season,90,150,Fandak Al Fakhama,905,TRUE,sea
+,24 juin 2022,Suite,Off-Season,90,250,Fandak Al Madina,906,FALSE,city
+,25 juin 2022,Standard,Off-Season,98,100,Fandak Al Fakhama,907,FALSE,mountain
+,26 juin 2022,Deluxe,Off-Season,98,150,Nazl Al Jabal,908,TRUE,garden
+,27 juin 2022,Suite,Off-Season,98,250,Muntaaz Al Bahar,909,TRUE,mountain
+,28 juin 2022,Standard,Off-Season,38,100,Nazl Al Jabal,910,FALSE,mountain
+,29 juin 2022,Deluxe,Off-Season,38,150,Fandak Al Madina,911,TRUE,city
+,30 juin 2022,Suite,Off-Season,38,250,Fandak Al Madina,912,TRUE,mountain
+,1 juillet 2022,Standard,Off-Season,97,100,Fandak Al Fakhama,913,TRUE,city
+,2 juillet 2022,Deluxe,Off-Season,97,150,Fandak Al Madina,914,FALSE,sea
+,3 juillet 2022,Suite,Off-Season,97,250,Nazl Al Iqtisad,915,FALSE,sea
+,4 juillet 2022,Standard,Off-Season,63,100,Fandak Al Madina,916,FALSE,city
+,5 juillet 2022,Deluxe,Off-Season,63,150,Fandak Al Fakhama,917,FALSE,sea
+,6 juillet 2022,Suite,Off-Season,63,250,Fandak Al Fakhama,918,FALSE,garden
+,7 juillet 2022,Standard,Off-Season,41,100,Nazl Al Iqtisad,919,FALSE,mountain
+,8 juillet 2022,Deluxe,Off-Season,41,150,Fandak Al Fakhama,920,FALSE,garden
+,9 juillet 2022,Suite,Off-Season,41,250,Muntaaz Al Bahar,921,TRUE,mountain
+,10 juillet 2022,Standard,Off-Season,60,100,Nazl Al Jabal,922,TRUE,sea
+,11 juillet 2022,Deluxe,Off-Season,60,150,Fandak Al Madina,923,TRUE,garden
+,12 juillet 2022,Suite,Off-Season,60,250,Muntaaz Al Bahar,924,TRUE,sea
+,13 juillet 2022,Standard,Off-Season,53,100,Fandak Al Madina,925,TRUE,mountain
+,14 juillet 2022,Deluxe,Off-Season,53,150,Muntaaz Al Bahar,926,TRUE,city
+,15 juillet 2022,Suite,Off-Season,53,250,Fandak Al Madina,927,TRUE,city
+,16 juillet 2022,Standard,Off-Season,61,100,Nazl Al Iqtisad,928,FALSE,garden
+,17 juillet 2022,Deluxe,Off-Season,61,150,Fandak Al Fakhama,929,FALSE,sea
+,18 juillet 2022,Suite,Off-Season,61,250,Fandak Al Fakhama,930,TRUE,sea
+,19 juillet 2022,Standard,Off-Season,80,100,Nazl Al Iqtisad,931,TRUE,garden
+,20 juillet 2022,Deluxe,Off-Season,80,150,Muntaaz Al Bahar,932,FALSE,city
+,21 juillet 2022,Suite,Off-Season,80,250,Nazl Al Jabal,933,TRUE,mountain
+,22 juillet 2022,Standard,Off-Season,87,100,Muntaaz Al Bahar,934,TRUE,garden
+,23 juillet 2022,Deluxe,Off-Season,87,150,Fandak Al Fakhama,935,FALSE,mountain
+,24 juillet 2022,Suite,Off-Season,87,250,Nazl Al Jabal,936,TRUE,city
+,25 juillet 2022,Standard,Off-Season,52,100,Fandak Al Madina,937,FALSE,sea
+,26 juillet 2022,Deluxe,Off-Season,52,150,Nazl Al Jabal,938,TRUE,city
+,27 juillet 2022,Suite,Off-Season,52,250,Muntaaz Al Bahar,939,FALSE,garden
+,28 juillet 2022,Standard,Off-Season,13,100,Nazl Al Iqtisad,940,FALSE,sea
+,29 juillet 2022,Deluxe,Off-Season,13,150,Fandak Al Madina,941,FALSE,garden
+,30 juillet 2022,Suite,Off-Season,13,250,Muntaaz Al Bahar,942,TRUE,garden
+,31 juillet 2022,Standard,Off-Season,2,100,Fandak Al Madina,943,FALSE,city
+,1 août 2022,Deluxe,Off-Season,2,150,Nazl Al Jabal,944,TRUE,garden
+,2 août 2022,Suite,Off-Season,2,250,Fandak Al Fakhama,945,TRUE,city
+,3 août 2022,Standard,Off-Season,74,100,Muntaaz Al Bahar,946,TRUE,sea
+,4 août 2022,Deluxe,Off-Season,74,150,Nazl Al Iqtisad,947,TRUE,city
+,5 août 2022,Suite,Off-Season,74,250,Nazl Al Jabal,948,FALSE,sea
+,6 août 2022,Standard,Off-Season,93,100,Muntaaz Al Bahar,949,FALSE,city
+,7 août 2022,Deluxe,Off-Season,93,150,Nazl Al Iqtisad,950,TRUE,mountain
+,8 août 2022,Suite,Off-Season,93,250,Muntaaz Al Bahar,951,TRUE,mountain
+,9 août 2022,Standard,Off-Season,72,100,Nazl Al Jabal,952,FALSE,garden
+,10 août 2022,Deluxe,Off-Season,72,150,Muntaaz Al Bahar,953,TRUE,city
+,11 août 2022,Suite,Off-Season,72,250,Fandak Al Madina,954,FALSE,city
+,12 août 2022,Standard,Off-Season,19,100,Nazl Al Jabal,955,TRUE,sea
+,13 août 2022,Deluxe,Off-Season,19,150,Muntaaz Al Bahar,956,TRUE,garden
+,14 août 2022,Suite,Off-Season,19,250,Fandak Al Fakhama,957,FALSE,city
+,15 août 2022,Standard,Off-Season,60,100,Muntaaz Al Bahar,958,TRUE,garden
+,16 août 2022,Deluxe,Off-Season,60,150,Fandak Al Madina,959,FALSE,mountain
+,17 août 2022,Suite,Off-Season,60,250,Nazl Al Iqtisad,960,TRUE,city
+,18 août 2022,Standard,Off-Season,32,100,Nazl Al Iqtisad,961,TRUE,city
+,19 août 2022,Deluxe,Off-Season,32,150,Nazl Al Iqtisad,962,TRUE,garden
+,20 août 2022,Suite,Off-Season,32,250,Fandak Al Fakhama,963,FALSE,city
+,21 août 2022,Standard,Off-Season,27,100,Fandak Al Madina,964,TRUE,garden
+,22 août 2022,Deluxe,Off-Season,27,150,Nazl Al Jabal,965,TRUE,city
+,23 août 2022,Suite,Off-Season,27,250,Nazl Al Iqtisad,966,TRUE,sea
+,24 août 2022,Standard,Off-Season,5,100,Fandak Al Madina,967,TRUE,garden
+,25 août 2022,Deluxe,Off-Season,5,150,Muntaaz Al Bahar,968,FALSE,city
+,26 août 2022,Suite,Off-Season,5,250,Fandak Al Fakhama,969,FALSE,mountain
+,27 août 2022,Standard,Off-Season,3,100,Fandak Al Madina,970,TRUE,city
+,28 août 2022,Deluxe,Off-Season,3,150,Fandak Al Madina,971,FALSE,mountain
+,29 août 2022,Suite,Off-Season,3,250,Nazl Al Jabal,972,TRUE,mountain
+,30 août 2022,Standard,Off-Season,38,100,Fandak Al Madina,973,TRUE,sea
+,31 août 2022,Deluxe,Off-Season,38,150,Nazl Al Jabal,974,TRUE,garden
+,1 septembre 2022,Suite,Off-Season,38,250,Fandak Al Fakhama,975,FALSE,city
+,2 septembre 2022,Standard,Off-Season,81,100,Fandak Al Fakhama,976,FALSE,sea
+,3 septembre 2022,Deluxe,Off-Season,81,150,Muntaaz Al Bahar,977,FALSE,city
+,4 septembre 2022,Suite,Off-Season,81,250,Nazl Al Jabal,978,FALSE,mountain
+,5 septembre 2022,Standard,Off-Season,36,100,Nazl Al Jabal,979,FALSE,garden
+,6 septembre 2022,Deluxe,Off-Season,36,150,Nazl Al Iqtisad,980,FALSE,city
+,7 septembre 2022,Suite,Off-Season,36,250,Nazl Al Iqtisad,981,FALSE,city
+,8 septembre 2022,Standard,Off-Season,98,100,Muntaaz Al Bahar,982,FALSE,mountain
+,9 septembre 2022,Deluxe,Off-Season,98,150,Fandak Al Fakhama,983,FALSE,city
+,10 septembre 2022,Suite,Off-Season,98,250,Nazl Al Iqtisad,984,TRUE,city
+,11 septembre 2022,Standard,Off-Season,3,100,Fandak Al Madina,985,FALSE,mountain
+,12 septembre 2022,Deluxe,Off-Season,3,150,Fandak Al Fakhama,986,FALSE,sea
+,13 septembre 2022,Suite,Off-Season,3,250,Fandak Al Madina,987,FALSE,mountain
+,14 septembre 2022,Standard,Off-Season,11,100,Nazl Al Jabal,988,FALSE,sea
+,15 septembre 2022,Deluxe,Off-Season,11,150,Fandak Al Fakhama,989,FALSE,garden
+,16 septembre 2022,Suite,Off-Season,11,250,Muntaaz Al Bahar,990,FALSE,sea
+,17 septembre 2022,Standard,Off-Season,36,100,Nazl Al Jabal,991,FALSE,sea
+,18 septembre 2022,Deluxe,Off-Season,36,150,Nazl Al Jabal,992,FALSE,garden
+,19 septembre 2022,Suite,Off-Season,36,250,Fandak Al Madina,993,FALSE,sea
+,20 septembre 2022,Standard,Off-Season,28,100,Nazl Al Jabal,994,FALSE,mountain
+,21 septembre 2022,Deluxe,Off-Season,28,150,Nazl Al Iqtisad,995,FALSE,sea
+,22 septembre 2022,Suite,Off-Season,28,250,Fandak Al Fakhama,996,TRUE,garden
+,23 septembre 2022,Standard,Off-Season,61,100,Nazl Al Iqtisad,997,TRUE,mountain
+,24 septembre 2022,Deluxe,Off-Season,61,150,Fandak Al Madina,998,FALSE,garden
+,25 septembre 2022,Suite,Off-Season,61,250,Fandak Al Madina,999,FALSE,garden
+,26 septembre 2022,Standard,Off-Season,61,100,Fandak Al Fakhama,1000,TRUE,city
+,5 octobre 2022,Standard,Off-Season,76,100,Fandak Al Fakhama,1009,FALSE,garden
+,8 novembre 2022,Deluxe,Off-Season,11,150,Nazl Al Jabal,1043,TRUE,mountain
+,4 décembre 2022,Standard,Off-Season,14,100,Nazl Al Iqtisad,1069,TRUE,mountain
+,27 septembre 2022,Deluxe,Off-Season,61,150,Nazl Al Jabal,1001,FALSE,city
+,20 décembre 2022,Deluxe,Off-Season,34,150,Fandak Al Madina,1085,FALSE,mountain
+,13 novembre 2022,Standard,Off-Season,37,100,Nazl Al Jabal,1048,TRUE,garden
+,7 novembre 2022,Standard,Off-Season,11,100,Fandak Al Fakhama,1042,FALSE,garden
+,30 octobre 2022,Deluxe,Off-Season,92,150,Nazl Al Iqtisad,1034,FALSE,city
+,25 octobre 2022,Suite,Off-Season,44,250,Nazl Al Jabal,1029,TRUE,sea
+,3 octobre 2022,Deluxe,Off-Season,77,150,Fandak Al Madina,1007,FALSE,sea
+,9 octobre 2022,Deluxe,Off-Season,51,150,Fandak Al Fakhama,1013,FALSE,city
+,29 novembre 2022,Deluxe,Off-Season,8,150,Nazl Al Iqtisad,1064,TRUE,garden
+,25 novembre 2022,Standard,Off-Season,52,100,Nazl Al Jabal,1060,FALSE,mountain
+,21 octobre 2022,Deluxe,Off-Season,61,150,Muntaaz Al Bahar,1025,FALSE,mountain
+,7 décembre 2022,Standard,Off-Season,13,100,Muntaaz Al Bahar,1072,FALSE,mountain
+,27 octobre 2022,Deluxe,Off-Season,93,150,Fandak Al Madina,1031,TRUE,garden
+,7 octobre 2022,Suite,Off-Season,76,250,Fandak Al Madina,1011,TRUE,mountain
+,6 octobre 2022,Deluxe,Off-Season,76,150,Fandak Al Fakhama,1010,FALSE,mountain
+,15 octobre 2022,Deluxe,Off-Season,29,150,Fandak Al Fakhama,1019,FALSE,sea
+,5 novembre 2022,Deluxe,Off-Season,98,150,Fandak Al Fakhama,1040,TRUE,city
+,27 novembre 2022,Suite,Off-Season,52,250,Fandak Al Fakhama,1062,TRUE,mountain
+,2 décembre 2022,Deluxe,Off-Season,67,150,Fandak Al Fakhama,1067,TRUE,sea
+,6 novembre 2022,Suite,Off-Season,98,250,Nazl Al Iqtisad,1041,TRUE,sea
+,13 octobre 2022,Suite,Off-Season,66,250,Fandak Al Madina,1017,FALSE,sea
+,18 octobre 2022,Deluxe,Off-Season,7,150,Fandak Al Fakhama,1022,TRUE,sea
+,20 octobre 2022,Standard,Off-Season,61,100,Nazl Al Jabal,1024,FALSE,sea
+,23 novembre 2022,Deluxe,Off-Season,98,150,Muntaaz Al Bahar,1058,TRUE,sea
+,28 décembre 2022,Standard,Off-Season,43,100,Nazl Al Iqtisad,1093,FALSE,garden
+,12 octobre 2022,Deluxe,Off-Season,66,150,Muntaaz Al Bahar,1016,FALSE,mountain
+,15 novembre 2022,Suite,Off-Season,37,250,Nazl Al Iqtisad,1050,TRUE,sea
+,13 décembre 2022,Standard,Off-Season,66,100,Nazl Al Iqtisad,1078,TRUE,sea
+,17 décembre 2022,Deluxe,Off-Season,71,150,Fandak Al Fakhama,1082,TRUE,mountain
+,16 octobre 2022,Suite,Off-Season,29,250,Nazl Al Jabal,1020,TRUE,sea
+,24 décembre 2022,Suite,Off-Season,79,250,Fandak Al Madina,1089,FALSE,garden
+,11 octobre 2022,Standard,Off-Season,66,100,Fandak Al Fakhama,1015,TRUE,garden
+,24 novembre 2022,Suite,Off-Season,98,250,Nazl Al Iqtisad,1059,FALSE,sea
+,30 novembre 2022,Suite,Off-Season,8,250,Nazl Al Iqtisad,1065,FALSE,sea
+,22 novembre 2022,Standard,Off-Season,98,100,Muntaaz Al Bahar,1057,FALSE,city
+,14 octobre 2022,Standard,Off-Season,29,100,Fandak Al Fakhama,1018,TRUE,garden
+,9 novembre 2022,Suite,Off-Season,11,250,Fandak Al Madina,1044,TRUE,garden
+,29 septembre 2022,Standard,Off-Season,34,100,Fandak Al Madina,1003,TRUE,garden
+,31 octobre 2022,Suite,Off-Season,92,250,Fandak Al Fakhama,1035,TRUE,mountain
+,9 décembre 2022,Suite,Off-Season,13,250,Nazl Al Jabal,1074,TRUE,garden
+,28 novembre 2022,Standard,Off-Season,8,100,Nazl Al Jabal,1063,TRUE,city
+,10 octobre 2022,Suite,Off-Season,51,250,Nazl Al Jabal,1014,TRUE,city
+,25 décembre 2022,Standard,Off-Season,61,100,Nazl Al Iqtisad,1090,FALSE,sea
+,1 octobre 2022,Suite,Off-Season,34,250,Muntaaz Al Bahar,1005,TRUE,city
+,4 octobre 2022,Suite,Off-Season,77,250,Fandak Al Fakhama,1008,TRUE,sea
+,26 décembre 2022,Deluxe,Off-Season,61,150,Nazl Al Jabal,1091,FALSE,city
+,4 novembre 2022,Standard,Off-Season,98,100,Nazl Al Jabal,1039,TRUE,sea
+,17 octobre 2022,Standard,Off-Season,7,100,Nazl Al Jabal,1021,TRUE,garden
+,30 septembre 2022,Deluxe,Off-Season,34,150,Fandak Al Fakhama,1004,TRUE,garden
+,1 novembre 2022,Standard,Off-Season,43,100,Muntaaz Al Bahar,1036,FALSE,sea
+,29 octobre 2022,Standard,Off-Season,92,100,Muntaaz Al Bahar,1033,TRUE,city
+,11 novembre 2022,Deluxe,Off-Season,61,150,Muntaaz Al Bahar,1046,TRUE,mountain
+,14 décembre 2022,Deluxe,Off-Season,66,150,Muntaaz Al Bahar,1079,FALSE,garden
+,26 novembre 2022,Deluxe,Off-Season,52,150,Fandak Al Fakhama,1061,TRUE,mountain
+,2 novembre 2022,Deluxe,Off-Season,43,150,Fandak Al Madina,1037,FALSE,sea
+,19 décembre 2022,Standard,Off-Season,34,100,Muntaaz Al Bahar,1084,FALSE,city
+,29 décembre 2022,Deluxe,Off-Season,43,150,Fandak Al Fakhama,1094,TRUE,garden
+,3 novembre 2022,Suite,Off-Season,43,250,Nazl Al Jabal,1038,TRUE,garden
+,5 décembre 2022,Deluxe,Off-Season,14,150,Fandak Al Fakhama,1070,TRUE,garden
+,23 octobre 2022,Standard,Off-Season,44,100,Nazl Al Iqtisad,1027,FALSE,mountain
+,6 décembre 2022,Suite,Off-Season,14,250,Fandak Al Fakhama,1071,TRUE,city
+,10 novembre 2022,Standard,Off-Season,61,100,Nazl Al Jabal,1045,FALSE,garden
+,11 décembre 2022,Deluxe,Off-Season,71,150,Nazl Al Iqtisad,1076,TRUE,city
+,24 octobre 2022,Deluxe,Off-Season,44,150,Fandak Al Fakhama,1028,TRUE,city
+,16 décembre 2022,Standard,Off-Season,71,100,Nazl Al Iqtisad,1081,TRUE,city
+,27 décembre 2022,Suite,Off-Season,61,250,Fandak Al Madina,1092,TRUE,sea
+,21 novembre 2022,Suite,Off-Season,53,250,Nazl Al Jabal,1056,TRUE,sea
+,15 décembre 2022,Suite,Off-Season,66,250,Fandak Al Fakhama,1080,TRUE,sea
+,18 novembre 2022,Suite,Off-Season,95,250,Nazl Al Jabal,1053,TRUE,sea
+,17 novembre 2022,Deluxe,Off-Season,95,150,Fandak Al Fakhama,1052,TRUE,sea
+,20 novembre 2022,Deluxe,Off-Season,53,150,Muntaaz Al Bahar,1055,TRUE,city
+,16 novembre 2022,Standard,Off-Season,95,100,Nazl Al Jabal,1051,FALSE,mountain
+,19 octobre 2022,Suite,Off-Season,7,250,Fandak Al Fakhama,1023,FALSE,mountain
+,30 décembre 2022,Suite,Off-Season,43,250,Nazl Al Iqtisad,1095,FALSE,city
+,3 décembre 2022,Suite,Off-Season,67,250,Muntaaz Al Bahar,1068,TRUE,city
+,14 novembre 2022,Deluxe,Off-Season,37,150,Muntaaz Al Bahar,1049,TRUE,sea
+,23 décembre 2022,Deluxe,Off-Season,79,150,Nazl Al Iqtisad,1088,FALSE,city
+,18 décembre 2022,Suite,Off-Season,71,250,Fandak Al Madina,1083,TRUE,mountain
+,12 novembre 2022,Suite,Off-Season,61,250,Nazl Al Jabal,1047,TRUE,garden
+,2 octobre 2022,Standard,Off-Season,77,100,Nazl Al Jabal,1006,TRUE,city
+,1 décembre 2022,Standard,Off-Season,67,100,Nazl Al Iqtisad,1066,TRUE,sea
+,8 octobre 2022,Standard,Off-Season,51,100,Muntaaz Al Bahar,1012,TRUE,city
+,26 octobre 2022,Standard,Off-Season,93,100,Fandak Al Madina,1030,TRUE,garden
+,21 décembre 2022,Suite,Off-Season,34,250,Nazl Al Iqtisad,1086,TRUE,mountain
+,8 décembre 2022,Deluxe,Off-Season,13,150,Nazl Al Jabal,1073,FALSE,city
+,22 octobre 2022,Suite,Off-Season,61,250,Nazl Al Iqtisad,1026,FALSE,mountain
+,19 novembre 2022,Standard,Off-Season,53,100,Fandak Al Fakhama,1054,TRUE,garden
+,10 décembre 2022,Standard,Off-Season,71,100,Nazl Al Iqtisad,1075,TRUE,mountain
+,28 septembre 2022,Suite,Off-Season,61,250,Muntaaz Al Bahar,1002,TRUE,garden
+,12 décembre 2022,Suite,Off-Season,71,250,Muntaaz Al Bahar,1077,FALSE,garden
+,28 octobre 2022,Suite,Off-Season,93,250,Nazl Al Iqtisad,1032,FALSE,sea
+,22 décembre 2022,Standard,Off-Season,79,100,Fandak Al Fakhama,1087,TRUE,sea
