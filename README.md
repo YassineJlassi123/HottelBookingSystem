@@ -44,6 +44,10 @@ The project is designed to handle:
 ### 🧪 Unit Testing 
 - **Problem:** Testing services and controllers while isolating dependencies.
 
+## Problems I Faced 
+I have encountered many problems, and I will break them down along with how I resolved each one.First Problem: Handling CSV FilesThe first issue I faced was with processing a CSV file. When trying to retrieve records, the values weren't being returned correctly. After debugging, I discovered that some headers and columns were being considered missing by my functions. To resolve this, I added HeaderValidated = null and MissingFieldFound = null, which finally allowed me to retrieve the records correctly from the CSV file.Second Problem: Room Allocation ServiceAnother problem occurred with the Room Allocation Service. My main objective was to create a function that automatically sets a room to "unavailable" after it is allocated, preventing it from being booked again. Ideally, a message indicating that the room is unavailable should appear, but in reality, nothing happened, and the same room could still be allocated multiple times. After researching, I found that using a lock could resolve this issue as it seemed related to thread sharing. Unfortunately, this didn’t work. So, I did further research and found that using a Singleton could help. I added the following line to my Program.cs:builder.Services.AddSingleton<RoomAllocationService>();This solved the problem, and now, the same room cannot be booked again unless its availability is reset.Third Problem: Pricing LogicThe third problem was not a functionality issue but a logical one. The issue was that the CSV file showed all hotels having the same base price as mine. To address this, I decreased my hotel booking price and added dynamic pricing factors. This helped differentiate my prices.I encountered many other problems, but through research and persistence, I was able to resolve them all.
+ 
+
 ## Running the Application
 
 To run the application, follow these steps:
