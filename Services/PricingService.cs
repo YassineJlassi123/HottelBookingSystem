@@ -1,7 +1,13 @@
-﻿using CsvHelper.Configuration;
-using CsvHelper;
+﻿using CsvHelper;
+using CsvHelper.Configuration;
 using HotelPricingEngine.Models;
+using Microsoft.Extensions.Logging;
+using System.Collections.Generic;
 using System.Globalization;
+using System.IO;
+using System.Linq;
+using System.Threading.Tasks;
+using static HotelPricingEngine.Models.Enums;
 
 public class PricingService
 {
@@ -12,19 +18,32 @@ public class PricingService
     {
         _logger = logger;
     }
+
     // Base prices for different room types
-    private readonly Dictionary<string, double> _basePrices = new Dictionary<string, double>
+    private readonly Dictionary<RoomType, double> _basePrices = new Dictionary<RoomType, double>
     {
-        { "Standard", 90 },
-        { "Deluxe", 140 },
-        { "Suite", 240 }
+        { RoomType.Standard, 90 },
+        { RoomType.Deluxe, 140 },
+        { RoomType.Suite, 240 }
     };
+    public static string ToCsvSeason(Enums.Season season)
+    {
+        switch (season)
+        {
+            case Enums.Season.OffSeason:
+                return "Off-Season";
+            case Enums.Season.PeakSeason:
+                return "Peak Season";
+            default:
+                throw new ArgumentException($"Unknown season: {season}");
+        }
+    }
 
     // Seasonality factors for adjusting prices
-    private readonly Dictionary<string, double> _seasonalityFactors = new Dictionary<string, double>
+    private readonly Dictionary<Season, double> _seasonalityFactors = new Dictionary<Season, double>
     {
-        { "Off-Season", -0.20 },
-        { "Peak Season", 0.30 }
+        { Season.OffSeason, -0.20 },
+        { Season.PeakSeason, 0.30 }
     };
 
     // Constants to define the range for competitor price adjustments
@@ -34,97 +53,92 @@ public class PricingService
     // Calculates the adjusted price based on various factors
     public PricingResponse CalculateAdjustedPrice(PricingRequest request, double competitorAdjustment)
     {
-        // Check if request is null and throw an exception
         if (request == null) throw new ArgumentNullException(nameof(request));
 
-        // Retrieve base price for the room type, throw an exception if not found
         if (!_basePrices.TryGetValue(request.RoomType, out var basePrice))
         {
             throw new ArgumentException("Invalid room type", nameof(request.RoomType));
         }
 
-        // Get the seasonality factor from the dictionary or default to 0
         double seasonalityFactor = _seasonalityFactors.GetValueOrDefault(request.Season, 0);
-        // Calculate occupancy rate factor
         double occupancyRateFactor = GetOccupancyRateFactor(request.OccupancyRate);
 
-        // Calculate the adjusted price using the base price and adjustment factors
         double adjustedPrice = basePrice * (1 + seasonalityFactor + occupancyRateFactor + competitorAdjustment);
 
-        // Return the final pricing response
         return new PricingResponse
         {
             RoomType = request.RoomType,
             BasePrice = basePrice,
-            AdjustedPrice = Math.Round(adjustedPrice, 2) // Round to 2 decimal places
+            AdjustedPrice = Math.Round(adjustedPrice, 2)
         };
     }
 
     // Gets the competitor adjustment based on competitor prices and the request
     public double GetCompetitorAdjustment(List<CompetitorPriceRecord> competitorPrices, PricingRequest request)
     {
-        // Check if competitorPrices and request are not null
+
+
+        // Example implementation
+        string season = ToCsvSeason(request.Season);
         if (competitorPrices == null) throw new ArgumentNullException(nameof(competitorPrices));
         if (request == null) throw new ArgumentNullException(nameof(request));
 
-        // Filter and select competitor prices that match the criteria
+       
         var filteredPrices = competitorPrices
-            .Where(cp => cp.RoomType == request.RoomType &&
-                         cp.Season == request.Season &&
+            .Where(cp => cp.RoomType == request.RoomType.ToString() &&
+                         cp.Season == season &&
                          IsPriceInOccupancyRange(cp, request.OccupancyRate) &&
                          request.CompetitorPrices.Contains(cp.Competitor))
             .Select(cp => cp.BasePrice)
             .ToArray();
 
-        // Calculate the average competitor price
         double averageCompetitorPrice = filteredPrices.Length > 0
             ? filteredPrices.Average()
             : 0;
 
-        // Calculate the adjustment factor based on the average competitor price
-        double competitorAdjustment = averageCompetitorPrice > 0
-            ? (averageCompetitorPrice - _basePrices.GetValueOrDefault(request.RoomType, 0)) / _basePrices.GetValueOrDefault(request.RoomType, 1)
-            : 0;
-        competitorAdjustment = Math.Round(competitorAdjustment * 10) / 10;
+        double basePrice = _basePrices.GetValueOrDefault(request.RoomType, 0);
+        double competitorAdjustment = 0.0;
 
-        // Apply a constraint to the adjustment factor
+        if (basePrice > 0 && averageCompetitorPrice > 0)
+        {
+            competitorAdjustment = (averageCompetitorPrice - basePrice) / basePrice;
+            competitorAdjustment = competitorAdjustment > 0 ? 0.1 : -0.1;
+        }
+
         competitorAdjustment = Math.Clamp(competitorAdjustment, MinCompetitorAdjustment, MaxCompetitorAdjustment);
 
         return competitorAdjustment;
     }
 
+    // Gets the competitor adjustment automatically based on competitor prices and the request
     public double GetCompetitorAdjustmentAutamatcly(List<CompetitorPriceRecord> competitorPrices, PricingRequest request)
     {
-        // Check if competitorPrices and request are not null
+        string season = ToCsvSeason(request.Season);
         if (competitorPrices == null) throw new ArgumentNullException(nameof(competitorPrices));
         if (request == null) throw new ArgumentNullException(nameof(request));
-
-        // Filter and select competitor prices that match the criteria
+        Console.WriteLine(request.Season.ToString());
         var filteredPrices = competitorPrices
-            .Where(cp => cp.RoomType == request.RoomType &&
-                         cp.Season == request.Season
-                        )
+            .Where(cp => cp.RoomType == request.RoomType.ToString() && cp.Season == season)
             .Select(cp => cp.BasePrice)
             .ToArray();
-
-        // Calculate the average competitor price
+        
         double averageCompetitorPrice = filteredPrices.Length > 0
             ? filteredPrices.Average()
             : 0;
         Console.WriteLine(averageCompetitorPrice);
+        double basePrice = _basePrices.GetValueOrDefault(request.RoomType, 0);
+        double competitorAdjustment = 0.0;
 
-        // Calculate the adjustment factor based on the average competitor price
-        double competitorAdjustment = averageCompetitorPrice > 0
-            ? (averageCompetitorPrice - _basePrices.GetValueOrDefault(request.RoomType, 0)) / _basePrices.GetValueOrDefault(request.RoomType, 1)
-            : 0;
-        competitorAdjustment = Math.Round(competitorAdjustment * 10) / 10;
+        if (basePrice > 0 && averageCompetitorPrice > 0)
+        {
+            competitorAdjustment = (averageCompetitorPrice - basePrice) / basePrice;
+            competitorAdjustment = competitorAdjustment > 0 ? 0.1 : -0.1;
+        }
 
-        // Apply a constraint to the adjustment factor
         competitorAdjustment = Math.Clamp(competitorAdjustment, MinCompetitorAdjustment, MaxCompetitorAdjustment);
+
         return competitorAdjustment;
     }
-
-
 
     // Determines the factor based on the occupancy rate
     private double GetOccupancyRateFactor(int occupancyRate)
@@ -152,20 +166,52 @@ public class PricingService
             using (var reader = new StreamReader(_csvFilePath))
             using (var csv = new CsvReader(reader, new CsvConfiguration(CultureInfo.InvariantCulture)
             {
-                HeaderValidated = null, // Disable header validation
-                MissingFieldFound = null // Ignore missing fields
+                HeaderValidated = null,
+                MissingFieldFound = null
             }))
             {
-                records = csv.GetRecords<CompetitorPriceRecord>().ToList(); // Read records from CSV
+                records = csv.GetRecords<CompetitorPriceRecord>().ToList();
             }
 
-            _logger.LogInformation($"Successfully read {records.Count} records from CSV."); // Log success
+            _logger.LogInformation($"Successfully read {records.Count} records from CSV.");
             return records;
         }
         catch (Exception ex)
         {
-            _logger.LogError($"Error reading CSV file: {ex.Message}"); // Log error and return an empty list
+            _logger.LogError($"Error reading CSV file: {ex.Message}");
             return new List<CompetitorPriceRecord>();
         }
+    }
+    public async Task<List<string>> GetCompetitorNamesAsync()
+    {
+        var uniqueCompetitorNames = new HashSet<string>();
+
+        try
+        {
+            // Define custom CSV configuration
+            var csvConfig = new CsvConfiguration(CultureInfo.InvariantCulture)
+            {
+                HeaderValidated = null,  // Disables header validation
+                MissingFieldFound = null, // Disables missing field validation
+                IgnoreBlankLines = true, // Optional: ignores blank lines
+            };
+
+            using var reader = new StreamReader(_csvFilePath);
+            using var csv = new CsvReader(reader, csvConfig);
+
+            var records = csv.GetRecords<CompetitorPriceRecord>();
+
+            foreach (var record in records)
+            {
+                uniqueCompetitorNames.Add(record.Competitor);
+            }
+        }
+        catch (Exception ex)
+        {
+            // Log or handle exceptions
+            throw new Exception("Error reading competitor names from CSV.", ex);
+        }
+
+        return uniqueCompetitorNames.ToList();
     }
 }

@@ -2,7 +2,7 @@
 using Moq;
 using Microsoft.Extensions.Logging;
 using Xunit;
-
+using static HotelPricingEngine.Models.Enums;
 
 namespace HotelPricingEngine.HotelPricingEngine.Tests
 {
@@ -23,17 +23,17 @@ namespace HotelPricingEngine.HotelPricingEngine.Tests
             // Arrange
             var request = new RoomAllocationRequest
             {
-                RoomType = "Deluxe",
+                RoomType = RoomType.Deluxe, // Updated to use the enum
                 SpecialRequests = new SpecialRequests
                 {
                     ConnectingRoom = false,
-                    PreferredView = "sea"
+                    PreferredView = PreferedView.sea // Updated to use the enum
                 },
                 Nights = 2
             };
             var pricingResponse = new PricingResponse
             {
-                RoomType = "Deluxe",
+                RoomType = RoomType.Deluxe, // Updated to use the enum
                 AdjustedPrice = 100
             };
 
@@ -42,7 +42,7 @@ namespace HotelPricingEngine.HotelPricingEngine.Tests
 
             // Assert
             Assert.Equal(101, result.AllocatedRoomId);
-            Assert.Equal(200, result.TotalPrice); // 100 price * 2 nights
+            Assert.Equal(210, result.TotalPrice); // 100 price * 2 nights*0.05 sea
         }
 
         [Fact]
@@ -51,17 +51,17 @@ namespace HotelPricingEngine.HotelPricingEngine.Tests
             // Arrange
             var request = new RoomAllocationRequest
             {
-                RoomType = "Deluxe",
+                RoomType = RoomType.Deluxe, // Updated to use the enum
                 SpecialRequests = new SpecialRequests
                 {
                     ConnectingRoom = false,
-                    PreferredView = "sea"
+                    PreferredView = PreferedView.sea // Updated to use the enum
                 },
                 Nights = 2
             };
             var pricingResponse = new PricingResponse
             {
-                RoomType = "Deluxe",
+                RoomType = RoomType.Deluxe, // Updated to use the enum
                 AdjustedPrice = 100
             };
 
@@ -79,19 +79,19 @@ namespace HotelPricingEngine.HotelPricingEngine.Tests
         public void AllocateRoomWhenBooking_ValidRequestWithFactors_ReturnsCorrectResponse()
         {
             // Arrange
-            var request = new BookingRequest
+            var request = new RoomAllocationRequest
             {
-                RoomType = "Deluxe",
+                RoomType = RoomType.Deluxe, // Updated to use the enum
                 SpecialRequests = new SpecialRequests
                 {
                     ConnectingRoom = false,
-                    PreferredView = "sea"
+                    PreferredView = PreferedView.sea // Updated to use the enum
                 },
                 Nights = 2
             };
             var pricingResponse = new PricingResponse
             {
-                RoomType = "Deluxe",
+                RoomType = RoomType.Deluxe, // Updated to use the enum
                 AdjustedPrice = 100
             };
 
@@ -109,17 +109,17 @@ namespace HotelPricingEngine.HotelPricingEngine.Tests
             // Arrange
             var request = new RoomAllocationRequest
             {
-                RoomType = "Deluxe",
+                RoomType = RoomType.Deluxe, // Updated to use the enum
                 SpecialRequests = new SpecialRequests
                 {
                     ConnectingRoom = false,
-                    PreferredView = "sea"
+                    PreferredView = PreferedView.sea // Updated to use the enum
                 },
                 Nights = 2
             };
             var pricingResponse = new PricingResponse
             {
-                RoomType = "Deluxe",
+                RoomType = RoomType.Deluxe, // Updated to use the enum
                 AdjustedPrice = 100
             };
             _service.AllocateRoom(request, pricingResponse); // Allocate a room
@@ -131,6 +131,5 @@ namespace HotelPricingEngine.HotelPricingEngine.Tests
             var response = _service.AllocateRoom(request, pricingResponse);
             Assert.Equal(101, response.AllocatedRoomId); // Room should be available again
         }
-
     }
 }

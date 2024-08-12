@@ -1,9 +1,11 @@
-﻿namespace HotelPricingEngine.Models
+﻿using static HotelPricingEngine.Models.Enums;
+
+namespace HotelPricingEngine.Models
 {
     public class PricingResponse
 
     {
-        public string RoomType { get; set; }
+        public RoomType RoomType { get; set; }
         public double BasePrice { get; set; }
         public double AdjustedPrice { get; set; }
     }

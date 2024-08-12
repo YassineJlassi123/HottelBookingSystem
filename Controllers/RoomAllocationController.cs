@@ -1,6 +1,12 @@
 ﻿using HotelPricingEngine.Models;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
+using static HotelPricingEngine.Models.Enums;
+using Newtonsoft.Json;
+using Swashbuckle.AspNetCore.Filters;
 
 namespace HotelPricingEngine.Controllers
 {
@@ -22,21 +28,44 @@ namespace HotelPricingEngine.Controllers
         /// <summary>
         /// Books multiple rooms based on booking requests.
         /// </summary>
-        /// <param name="roomAllocationRequest">The booking request details.</param>
+        /// <param name="roomType">The type of room to book.</param>
+        /// <param name="season">The season during which the price is calculated.</param>
+        /// <param name="nights">The number of nights to book.</param>
+        /// <param name="connectingRoom">Whether connecting rooms are requested.</param>
+        /// <param name="preferredView">The preferred view for the room.</param>
         /// <returns>A response containing the allocated room details.</returns>
         [HttpPost("book-room")]
-        [SwaggerOperation(Summary = "Book a room", Description = "Book room based on the provided booking request. \n" +
-           " \n Notes: The type of room Must be one of: Standard, Deluxe, Suite.\n  " +
-        "\n Notes : The season during which the price is calculated. Must be one of: Peak Season, Off-Season.\n " +
-          "\n Notes : for now we only have 3 rooms :  \n " +
-           "\n  room1: Deluxe ; Id = 101 ; HasConnectingRooms = false ; AvailableView = sea   \n" +
-              "\n room2: Standard ; Id = 202 ; HasConnectingRooms = true ; AvailableView = garden  \n"
-            + "\n room3: Suite ; Id = 301 ; HasConnectingRooms = false ; AvailableView = city  ")]
+        [SwaggerOperation(Summary = "Book a room", Description = "Book room based on the provided booking parameters. \n" +
+           "\n Notes: For now, we only have 3 rooms:\n" +
+           "\n  room1: Deluxe ; Id = 101 ; HasConnectingRooms = false ; AvailableView = sea\n" +
+           "\n  room2: Standard ; Id = 202 ; HasConnectingRooms = true ; AvailableView = garden\n" +
+           "\n  room3: Suite ; Id = 301 ; HasConnectingRooms = false ; AvailableView = city")]
         [SwaggerResponse(200, "Room allocation successful", typeof(RoomAllocationResponse))]
         [SwaggerResponse(400, "Room not available")]
         [SwaggerResponse(500, "Error fetching competitor prices")]
-        public async Task<ActionResult<RoomAllocationResponse>> BookRooms([FromBody] RoomAllocationRequest roomAllocationRequest)
+        [SwaggerRequestExample(typeof(RoomAllocationRequest), typeof(RoomAllocationRequestExample))]
+
+        public async Task<ActionResult<RoomAllocationResponse>> BookRooms(
+              [FromQuery, SwaggerParameter("The type of room (e.g., Deluxe, Standard).", Required = true)]
+        Enums.RoomType roomType,
+            [FromQuery, SwaggerParameter("The season (e.g., Peak Season, Off-Season).", Required = true)]
+        Enums.Season season,
+            [FromQuery, SwaggerParameter(Required = true)]  int nights,
+            [FromQuery, SwaggerParameter("The connectingRooms (e.g.,true, false)..", Required = true)] bool connectingRoom,
+            [FromQuery, SwaggerParameter("The PreferedView (e.g.,sea, garden).", Required = true)] PreferedView preferredView)
         {
+            var roomAllocationRequest = new RoomAllocationRequest
+            {
+                RoomType = roomType,
+                Season = season,
+                SpecialRequests = new SpecialRequests
+                {
+                    ConnectingRoom = connectingRoom,
+                    PreferredView = preferredView
+                },
+                Nights = nights
+            };
+
             var roomAllocationResponses = new RoomAllocationResponse();
 
             // Create a pricing request for each booking request

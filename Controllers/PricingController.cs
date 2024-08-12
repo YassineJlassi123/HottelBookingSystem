@@ -7,6 +7,8 @@ using Swashbuckle.AspNetCore.Annotations; // Add Swagger Annotations
 using System.Globalization;
 using System.Threading.Tasks;
 using System.Collections.Generic;
+using static HotelPricingEngine.Models.Enums;
+using Swashbuckle.AspNetCore.Filters;
 
 [ApiController]
 [Route("api/[controller]")]
@@ -21,11 +23,38 @@ public class PricingController : ControllerBase
         _pricingService = pricingService;
         _logger = logger;
     }
+    [HttpGet("competitors")]
+    [SwaggerOperation(
+    Summary = "Get Competitor Names",
+    Description = "Fetches the list of available competitor names."
+)]
+    [SwaggerResponse(200, "Returns the list of competitor names.", typeof(List<string>))]
+    [SwaggerResponse(500, "If there is an error fetching competitor names.")]
+    public async Task<ActionResult<List<string>>> GetCompetitorNames()
+    {
+        List<string> competitorNames;
+        try
+        {
+            // Fetch competitor names
+            competitorNames = await _pricingService.GetCompetitorNamesAsync();
+        }
+        catch (Exception ex)
+        {
+            // Log error and return a server error response
+            _logger.LogError($"Error fetching competitor names: {ex.Message}");
+            return StatusCode(500, "Error fetching competitor names");
+        }
+
+        return Ok(competitorNames);
+    }
 
     /// <summary>
-    /// Calculates the adjusted room price based on the provided pricing request and.
+    /// Calculates the adjusted room price based on the provided pricing request.
     /// </summary>
-    /// <param name="request">The pricing request containing details such as room type, season, and occupancy rate.</param>
+    /// <param name="roomType">The type of room (e.g., Deluxe, Standard).</param>
+    /// <param name="season">The season (e.g., Peak Season, Off-Season).</param>
+    /// <param name="occupancyRate">The occupancy rate as a percentage.</param>
+    /// <param name="competitorPrices">A comma-separated list of competitor names.</param>
     /// <returns>Returns the adjusted price for the room.</returns>
     /// <response code="200">Returns the adjusted price for the room.</response>
     /// <response code="400">If the request is invalid or contains errors.</response>
@@ -33,24 +62,31 @@ public class PricingController : ControllerBase
     [HttpPost("calculate-price")]
     [SwaggerOperation(
         Summary = "Calculates Adjusted Room Price",
-        Description = "Calculates the adjusted room price based on the provided pricing request and competitor prices. \n" +
-        "\n Notes : The type of room. Must be one of: Standard, Deluxe, Suite.\n  " +
-        "\n Notes : The season during which the price is calculated. Must be one of: Peak Season, Off-Season.\n " +
-        "\n Notes : The occupancy rate as a percentage. Must be between 0 and 100.\n   " +
-        "\n please enter the same syntax like described in the notes !!"
+        Description = "Calculates the adjusted room price based on the provided parameters and competitor prices."
     )]
     [SwaggerResponse(200, "Returns the adjusted price for the room.", typeof(PricingResponse))]
     [SwaggerResponse(400, "If the request is invalid or contains errors.")]
     [SwaggerResponse(500, "If there is an error fetching competitor prices.")]
+    [SwaggerRequestExample(typeof(PricingRequest), typeof(PricingRequestExample))]
+
     public async Task<ActionResult<PricingResponse>> CalculatePrice(
-        [FromBody, SwaggerParameter("Pricing request containing room type, season, and occupancy rate.", Required = true)]
-        PricingRequest request)
+        [FromQuery, SwaggerParameter("The type of room (e.g., Deluxe, Standard).", Required = true)]
+        Enums.RoomType roomType,
+
+        [FromQuery, SwaggerParameter("The season (e.g., Peak Season, Off-Season).", Required = true)]
+        Enums.Season season,
+
+        [FromQuery, SwaggerParameter("The occupancy rate as a percentage.", Required = true)]
+        int occupancyRate,
+
+        [FromQuery, SwaggerParameter("A comma-separated list of competitor names.", Required = true)]
+        string[] competitorPrices)  // Swagger UI handles arrays as comma-separated values
     {
-        List<CompetitorPriceRecord> competitorPrices;
+        List<CompetitorPriceRecord> competitorPriceRecords;
         try
         {
             // Fetch competitor prices
-            competitorPrices = await _pricingService.GetCompetitorPricesAsync();
+            competitorPriceRecords = await _pricingService.GetCompetitorPricesAsync();
         }
         catch (Exception ex)
         {
@@ -59,8 +95,16 @@ public class PricingController : ControllerBase
             return StatusCode(500, "Error fetching competitor prices");
         }
 
+        var request = new PricingRequest
+        {
+            RoomType = roomType,
+            Season = season,
+            OccupancyRate = occupancyRate,
+            CompetitorPrices = competitorPrices.ToList()
+        };
+
         // Calculate adjustment based on competitor prices
-        double competitorAdjustment = _pricingService.GetCompetitorAdjustment(competitorPrices, request);
+        double competitorAdjustment = _pricingService.GetCompetitorAdjustment(competitorPriceRecords, request);
         var response = _pricingService.CalculateAdjustedPrice(request, competitorAdjustment);
 
         // Return the adjusted price response

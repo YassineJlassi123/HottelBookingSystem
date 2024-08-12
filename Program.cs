@@ -1,10 +1,18 @@
+using HotelPricingEngine.Models;
+using System.Text.Json.Serialization;
+using Swashbuckle.AspNetCore.Filters;
 using Microsoft.OpenApi.Models;
-using System.Reflection;
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllers(); // Add support for API controllers
+builder.Services.AddControllers().AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+});
+// Add support for API controllers
 builder.Services.AddRazorPages();  // Add support for Razor Pages
 builder.Services.AddScoped<PricingService>();
 builder.Services.AddScoped<RoomAllocationService>();
@@ -24,8 +32,10 @@ builder.Services.AddSwaggerGen(c =>
         }
     });
     c.EnableAnnotations();
+    c.ExampleFilters();
 });
 
+builder.Services.AddSwaggerExamplesFromAssemblyOf<BookingRequestExample>();
 
 var app = builder.Build();
 
@@ -50,7 +60,6 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
-
 // Map API controllers and Razor Pages
 app.MapControllers();   // Maps API controllers
 app.MapRazorPages();     // Maps Razor Pages

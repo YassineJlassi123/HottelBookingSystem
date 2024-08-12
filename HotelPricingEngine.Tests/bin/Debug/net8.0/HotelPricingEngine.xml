@@ -6,19 +6,20 @@
     <members>
         <member name="M:HotelPricingEngine.Controllers.BookingController.BookRooms(System.Collections.Generic.List{HotelPricingEngine.Models.BookingRequest})">
             <summary>
-            Books rooms based on the provided booking requests.
+            Books multiple rooms based on the request body parameters.
             </summary>
-            <param name="bookingRequests">A list of booking requests containing room type, season, and occupancy rate.</param>
-            <returns>Returns a list of room allocation responses, including allocated room IDs and pricing information.</returns>
-            <response code="200">Returns the list of room allocations.</response>
-            <response code="400">If no rooms are available for the specified request.</response>
-            <response code="500">If there is an error fetching competitor prices.</response>
+            <param name="bookingRequests">The list of booking details for multiple rooms.</param>
+            <returns>A response containing the allocated room details.</returns>
         </member>
-        <member name="M:HotelPricingEngine.Controllers.RoomAllocationController.BookRooms(HotelPricingEngine.Models.RoomAllocationRequest)">
+        <member name="M:HotelPricingEngine.Controllers.RoomAllocationController.BookRooms(HotelPricingEngine.Models.Enums.RoomType,HotelPricingEngine.Models.Enums.Season,System.Int32,System.Boolean,HotelPricingEngine.Models.Enums.PreferedView)">
             <summary>
             Books multiple rooms based on booking requests.
             </summary>
-            <param name="roomAllocationRequest">The booking request details.</param>
+            <param name="roomType">The type of room to book.</param>
+            <param name="season">The season during which the price is calculated.</param>
+            <param name="nights">The number of nights to book.</param>
+            <param name="connectingRoom">Whether connecting rooms are requested.</param>
+            <param name="preferredView">The preferred view for the room.</param>
             <returns>A response containing the allocated room details.</returns>
         </member>
         <member name="M:HotelPricingEngine.Controllers.RoomAllocationController.ResetRoomAvailability">
@@ -27,11 +28,14 @@
             </summary>
             <returns>A success message indicating the reset was successful.</returns>
         </member>
-        <member name="M:PricingController.CalculatePrice(HotelPricingEngine.Models.PricingRequest)">
+        <member name="M:PricingController.CalculatePrice(HotelPricingEngine.Models.Enums.RoomType,HotelPricingEngine.Models.Enums.Season,System.Int32,System.String[])">
             <summary>
-            Calculates the adjusted room price based on the provided pricing request and.
+            Calculates the adjusted room price based on the provided pricing request.
             </summary>
-            <param name="request">The pricing request containing details such as room type, season, and occupancy rate.</param>
+            <param name="roomType">The type of room (e.g., Deluxe, Standard).</param>
+            <param name="season">The season (e.g., Peak Season, Off-Season).</param>
+            <param name="occupancyRate">The occupancy rate as a percentage.</param>
+            <param name="competitorPrices">A comma-separated list of competitor names.</param>
             <returns>Returns the adjusted price for the room.</returns>
             <response code="200">Returns the adjusted price for the room.</response>
             <response code="400">If the request is invalid or contains errors.</response>
