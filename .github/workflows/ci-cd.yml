@@ -35,4 +35,4 @@ jobs:
             -H "Authorization: Bearer $RENDER_API_KEY" \
             -H "Content-Type: application/json" \
             -d '{"branch": "main"}' \
-            https://api.render.com/deploy/srv-cqsdjbt6l47c73a2oe6g?key=3Kah5kY0L10 
+            https://api.render.com/deploy/srv-cqsdjbt6l47c73a2oe6g?key=${{ secrets.RENDER_DEPLOY_KEY }}
