@@ -1,1 +1,15 @@
 .vs/
+# Build directories
+bin/
+obj/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
